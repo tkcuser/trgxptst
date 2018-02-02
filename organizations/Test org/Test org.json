@@ -55,9 +55,9 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2018-02-02T14:19:17.977",
+      "created": "2018-02-02T14:19:23.117",
       "createdby": "mailfornik@gmail.com",
-      "updated": "2018-02-02T14:19:17.977",
+      "updated": "2018-02-02T14:19:23.117",
       "updatedby": "unknown",
       "completion": []
     }
@@ -66,6 +66,6 @@
   "gituser": "tkcuser",
   "gitpassword": "7-:SF%#y;F6E",
   "gitintegration": true,
-  "gitstatus": "",
+  "gitstatus": "No changes; nothing to commit.",
   "encryption": "ads"
 }
