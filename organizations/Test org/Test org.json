@@ -1,0 +1,71 @@
+{
+  "identity": {
+    "id": "57bca937-14f0-416f-9b9d-9a03d9a38254",
+    "name": "Test org",
+    "description": "Test org description edit"
+  },
+  "object": {
+    "picture": "logo.png",
+    "tags": [
+      {
+        "name": "666666666666666666666666",
+        "description": "f"
+      },
+      {
+        "name": "777777777777777"
+      },
+      {
+        "name": "ads 4"
+      },
+      {
+        "name": "assadsadsad asdadsadsasd 3"
+      },
+      {
+        "name": "sdasafdsad 2"
+      },
+      {
+        "name": "sfdsdfdsdsf sfdfsdfssfd 5"
+      },
+      {
+        "name": "tag 1",
+        "description": "ssss"
+      },
+      {
+        "name": "tag 1",
+        "description": "ssss"
+      },
+      {
+        "name": "tag 1",
+        "description": "ssss"
+      },
+      {
+        "name": "tag 1",
+        "description": "ssss"
+      }
+    ],
+    "documents": [],
+    "contact": {
+      "identity": {
+        "description": ""
+      },
+      "url": "",
+      "email": ""
+    },
+    "type": "Org",
+    "usage": "Resource",
+    "properties": [],
+    "history": {
+      "created": "2018-02-02T05:48:09.227",
+      "createdby": "mailfornik@gmail.com",
+      "updated": "2018-02-02T05:48:09.227",
+      "updatedby": "unknown",
+      "completion": []
+    }
+  },
+  "giturl": "https://github.com/tkcuser/trgxptst.git",
+  "gituser": "tkcuser",
+  "gitpassword": "7-:SF%#y;F6E",
+  "gitintegration": true,
+  "gitstatus": "",
+  "encryption": "ads"
+}
