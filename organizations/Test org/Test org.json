@@ -21,10 +21,18 @@
         "name": "assadsadsad asdadsadsasd 3"
       },
       {
+        "name": "pepe",
+        "description": "pekekek"
+      },
+      {
         "name": "sdasafdsad 2"
       },
       {
         "name": "sfdsdfdsdsf sfdfsdfssfd 5"
+      },
+      {
+        "name": "tag 1",
+        "description": "ssss"
       },
       {
         "name": "tag 1",
@@ -57,15 +65,17 @@
     "history": {
       "created": "2018-02-02T14:19:28.29",
       "createdby": "mailfornik@gmail.com",
-      "updated": "2018-02-02T14:19:28.29",
-      "updatedby": "unknown",
+      "updated": "2018-03-01T09:48:27.717",
+      "updatedby": "orzhan057@gmail.com",
       "completion": []
     }
   },
-  "giturl": "https://github.com/tkcuser/trgxptst.git",
-  "gituser": "tkcuser",
-  "gitpassword": "7-:SF%#y;F6E",
-  "gitintegration": true,
-  "gitstatus": "",
+  "integration": {
+    "url": "https://github.com/tkcuser/trgxptst.git",
+    "user": "tkcuser",
+    "password": "7-:SF%#y;F6E",
+    "integration": true,
+    "status": ""
+  },
   "encryption": "ads"
 }
