@@ -1,0 +1,57 @@
+{
+  "identity": {
+    "id": "7f996a4c-d070-4ff2-8085-8115d1609659",
+    "name": "test"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "contact": {
+      "identity": {}
+    },
+    "type": "Interface",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2017-04-03T08:50:58.07",
+      "createdby": "metadb_admin",
+      "updated": "9999-12-30T00:00:00",
+      "updatedby": "mailfornik@gmail.com",
+      "completion": [
+        {
+          "status": "Finalized",
+          "completed": "2018-03-05T09:46:35.447",
+          "completedby": "mailfornik@gmail.com",
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2692/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2018-03-05T18:05:22.13",
+          "completedby": "mailfornik@gmail.com",
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2692/messages/2"
+        }
+      ]
+    },
+    "lastapprovedversion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "path": "",
+  "parameters": [],
+  "responses": [],
+  "operations": [],
+  "layouts": [],
+  "examples": []
+}
