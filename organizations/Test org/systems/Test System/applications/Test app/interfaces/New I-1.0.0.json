@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "id": "dc5eb73c-edc1-4e97-bf76-df18763fbb64",
+    "name": "New I"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "contact": {
+      "identity": {
+        "description": ""
+      },
+      "url": "",
+      "email": ""
+    },
+    "type": "Interface",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2017-07-12T06:13:19.993",
+      "createdby": "unknown",
+      "updated": "2018-03-06T13:25:26.333",
+      "updatedby": "orzhan057@gmail.com",
+      "completion": [
+        {
+          "status": "Approved",
+          "completed": "2018-03-06T13:25:00.627",
+          "completedby": "orzhan057@gmail.com",
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2693/messages/2"
+        }
+      ]
+    },
+    "lastapprovedversion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "path": "/hjk/",
+  "parameters": [
+    {
+      "field": {
+        "identity": {
+          "id": "0c85ebfe-eac9-49ba-9d55-acb896904026",
+          "name": "New p1",
+          "description": "ttt"
+        },
+        "order": 0,
+        "usage": "Property",
+        "count": 1,
+        "type": "Reference",
+        "reference": "/organizations/Test org/systems/Test System/applications/Test app/datasets/Action",
+        "optional": true,
+        "privacy": "low"
+      }
+    }
+  ],
+  "responses": [],
+  "operations": [],
+  "layouts": [],
+  "examples": []
+}
