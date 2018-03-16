@@ -1,0 +1,162 @@
+{
+  "identity": {
+    "id": "7d93374e-9832-4e9d-90a2-fa5bd0655ee6",
+    "name": "Contact",
+    "description": "Contact information for object support.123"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "contact": {
+      "identity": {
+        "description": ""
+      },
+      "url": "",
+      "email": ""
+    },
+    "type": "DataSet",
+    "usage": "Resource",
+    "properties": [],
+    "elements": [{"identity":{"name":"aa"},"frame":{"position":{"left":319,"top":30,"width":184.39996337890625,"height":178.39999389648437}},"style":{"border":{"left":{"color":"#9a9a9a"}}}},{"identity":{"name":"view2"},"frame":{"position":{"left":505,"top":296,"width":0,"height":0}},"style":{"border":{"left":{"color":"#9a9a9a"}}}},{"identity":{"name":"ii99"},"frame":{"position":{"left":299,"top":18,"width":184,"height":178}},"style":{"border":{"left":{"color":"#9a9a9a"}}}},{"identity":{"name":"sasaa"},"frame":{"position":{"left":144,"top":227,"width":0,"height":0}},"style":{"border":{"left":{"color":"#9a9a9a"}}}},{"identity":{"name":"default"},"links":[{"type":"One-To-One","element":{"name":"Test dataset"}}],"frame":{"position":{"left":150,"top":41,"width":184,"height":178}},"style":{"border":{"left":{"color":"#35ff68"}}}}],
+    "history": {
+      "created": "2017-02-14T11:12:04.12",
+      "createdby": "unknown",
+      "updated": "2018-03-16T10:20:35.28",
+      "updatedby": "metadb_admin",
+      "completions": [
+        {
+          "status": "Approved",
+          "completed": "2018-03-16T10:21:44.003",
+          "completedby": "orzhan057@gmail.com",
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2696/messages/2"
+        }
+      ]
+    },
+    "lastapprovedversion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "external": false,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "29ce7ee9-7201-4e39-ae0c-bf3425b26b7c",
+          "name": "EMail",
+          "description": "The email address of the contact person/organization."
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 256,
+        "optional": false,
+        "format": "EMail",
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "f4e2b1f0-67a2-4689-bedc-b3106b960d3b",
+          "name": "URL",
+          "description": "The URL pointing to the contact information."
+        },
+        "order": 4,
+        "usage": "Property",
+        "count": 7,
+        "type": "Enum",
+        "reference": "/organizations/Test org/systems/Test System/applications/Test app/datasets/Action",
+        "optional": false,
+        "format": "URI",
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "60b0674c-6d99-4357-a437-b23e51bb3da8",
+          "name": "New field"
+        },
+        "order": 56,
+        "usage": "Property",
+        "count": 1,
+        "type": "Enum",
+        "reference": "/organizations/Test org/systems/Test System/applications/Test app/datasets/Platform",
+        "optional": true,
+        "privacy": "low"
+      }
+    ],
+    "keys": [
+      {
+        "identity": {
+          "id": "417cde14-4b21-4a39-bcf7-d9cd253666c2",
+          "name": "Main"
+        },
+        "fields": [
+          "Identity",
+          "EMail",
+          "URL"
+        ],
+        "primary": true
+      },
+      {
+        "identity": {
+          "id": "b3254f16-e33c-4875-a472-f22ad8271813",
+          "name": "k2"
+        },
+        "fields": [
+          "Identity"
+        ],
+        "primary": false,
+        "constraint": "/organizations/Test org/systems/Test System/applications/Test app/datasets/Action"
+      }
+    ]
+  },
+  "layouts": [],
+  "data": {
+    "records": [
+      {
+        "index": 0,
+        "values": [
+          "45545",
+          "sadas",
+          null
+        ]
+      },
+      {
+        "index": 1,
+        "values": [
+          "45545",
+          "sadas",
+          null
+        ]
+      },
+      {
+        "index": 2,
+        "values": [
+          "45545",
+          "[\"sadas\",\"sadas\"]",
+          "RESTfull-API"
+        ]
+      },
+      {
+        "index": 3,
+        "values": [
+          "",
+          null,
+          null
+        ]
+      }
+    ],
+    "examples": []
+  }
+}
