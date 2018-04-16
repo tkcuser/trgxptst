@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "id": "ed459491-9b54-428f-9cd5-2f799fa1ecee",
+    "name": "Object",
+    "description": "Updatable object. This object can be accessed by API and referenced."
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "contact": {
+      "identity": {
+        "description": ""
+      },
+      "url": "",
+      "email": ""
+    },
+    "type": "DataSet",
+    "usage": "Structure",
+    "properties": [
+      {
+        "identity": {
+          "name": "x"
+        },
+        "type": "String",
+        "value": "255"
+      },
+      {
+        "identity": {
+          "name": "y"
+        },
+        "type": "String",
+        "value": "260"
+      },
+      {
+        "identity": {
+          "name": "color"
+        },
+        "type": "String",
+        "value": "#8F70CB"
+      },
+      {
+        "identity": {
+          "name": "links"
+        },
+        "type": "String",
+        "value": ",Application"
+      },
+      {
+        "identity": {
+          "name": "links_onetomany"
+        },
+        "type": "String",
+        "value": ""
+      }
+    ],
+    "elements": [{"identity":{"name":"aa"},"frame":{"position":{"left":288,"top":232}},"style":{"border":{"left":{"color":"#8F70CB"}}}},{"identity":{"name":"view2"},"frame":{"position":{"left":794,"top":120,"width":0,"height":0}},"style":{"border":{"left":{"color":"#8F70CB"}}}},{"identity":{"name":"ii99"},"frame":{"position":{"left":288,"top":232}},"style":{"border":{"left":{"color":"#8F70CB"}}}},{"identity":{"name":"empty"},"frame":{"position":{"left":561,"top":143,"width":0,"height":0}},"style":{"border":{"left":{"color":"#8F70CB"}}}},{"identity":{"name":"ytyt tata 66"},"frame":{"position":{"left":32,"top":120,"width":0,"height":0}},"style":{"border":{"left":{"color":"#8F70CB"}}}},{"identity":{"name":"new viewads"},"frame":{"position":{"left":-1,"top":260,"width":0,"height":0}},"style":{"border":{"left":{"color":"#8F70CB"}}}},{"identity":{"name":"default"},"links":[{"type":"One-To-One","element":{"name":"Application"}}],"frame":{"position":{"left":406,"top":541,"width":0,"height":0}},"style":{"border":{"left":{"color":"#8F70CB"}}}}],
+    "history": {
+      "created": "2017-02-23T13:09:24.713",
+      "createdby": "mailfornik@gmail.com",
+      "updated": "9999-12-30T00:00:00",
+      "updatedby": "orzhan057@gmail.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2017-12-04T12:37:09.043",
+          "completedby": "mailfornik@gmail.com",
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2386/messages/3"
+        },
+        {
+          "status": "Approved",
+          "completed": "2018-04-16T11:38:25.593",
+          "completedby": "orzhan057@gmail.com",
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2386/messages/3"
+        }
+      ]
+    },
+    "lastapprovedversion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "external": false,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "4542a15f-bed1-48c8-90d9-21722a027fc4",
+          "name": "Parent",
+          "description": "Reference to id of folder for current object. It include URI of parent object in name."
+        },
+        "order": 1,
+        "usage": "Translation",
+        "type": "String",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "26ce092a-fa2c-4b48-8d68-b4dd9a791dbd",
+          "name": "Picture",
+          "description": "Reference to picture associated with object."
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "e6b9eac3-1268-4ead-9a8f-7225cceec240",
+          "name": "Tags",
+          "description": "List of tags for object association."
+        },
+        "order": 3,
+        "usage": "Identity",
+        "type": "Structure",
+        "reference": "/organizations/Test org/datasets/Identity",
+        "optional": false,
+        "keys": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "8b4b2db7-8746-4766-8db9-e8379fd2ace6",
+          "name": "Documents",
+          "description": "List of references to documents associated with object."
+        },
+        "order": 4,
+        "usage": "Property",
+        "count": 0,
+        "type": "Structure",
+        "reference": "/organizations/Test org/systems/Test System/applications/Test app/datasets/Document",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "0c152cb5-05b5-4139-8502-42e334affdfd",
+          "name": "Type",
+          "description": "Type of the object."
+        },
+        "order": 5,
+        "usage": "Property",
+        "count": 1,
+        "type": "Structure",
+        "reference": "/organizations/Test org/datasets/Class",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "0de5d073-183e-4e9c-8794-fa23e9a11aa7",
+          "name": "Usage",
+          "description": "Usage of object."
+        },
+        "order": 6,
+        "usage": "Property",
+        "count": 1,
+        "type": "Enum",
+        "reference": "/organizations/Test org/datasets/Usage",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "65a0c471-aed8-42af-842a-52822bc04e7a",
+          "name": "Access",
+          "description": "Type of acces to object data for users."
+        },
+        "order": 7,
+        "usage": "Property",
+        "count": 1,
+        "type": "Enum",
+        "reference": "/organizations/Test org/systems/Test System/applications/Test app/datasets/Access",
+        "optional": true,
+        "value": "External",
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "c117e4f6-06e1-4b8e-aac5-10c849e07183",
+          "name": "Contact",
+          "description": "Contact information to team maintaining object."
+        },
+        "order": 8,
+        "usage": "Property",
+        "count": 1,
+        "type": "Structure",
+        "reference": "/organizations/Test org/systems/Test System/applications/Test app/datasets/Contact",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "a6ebfb77-12b8-4b32-bbd8-dd07ab0d148e",
+          "name": "Properties",
+          "description": "List of object properties."
+        },
+        "order": 9,
+        "usage": "Property",
+        "count": 0,
+        "type": "Structure",
+        "reference": "/organizations/Test org/systems/Test System/applications/Test app/datasets/Property",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "bf6d254b-cb16-4cbb-ab3d-19721c8f1dfb",
+          "name": "History",
+          "description": "History of object creation, modification, finalization and aproval."
+        },
+        "order": 10,
+        "usage": "Property",
+        "count": 1,
+        "type": "Structure",
+        "reference": "/organizations/Test org/systems/Test System/applications/Test app/datasets/History",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "21fc4a79-25de-45f0-b88e-06e088a267e5",
+          "name": "LastApprovedVersion",
+          "description": "Last approved version of dataset independently from current version. Only last aproved version can be used in publications."
+        },
+        "order": 11,
+        "usage": "Property",
+        "count": 1,
+        "type": "Structure",
+        "reference": "/organizations/Test org/datasets/Version",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "e05f4b10-e08d-4aba-9fde-710437d2c1ea",
+          "name": "PublicationCount",
+          "description": "Count of publications for the object."
+        },
+        "order": 12,
+        "usage": "Property",
+        "count": 1,
+        "type": "Integer",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "7c3d76ed-765a-41dc-8e13-7a971496ccdf",
+          "name": "SubscriptionCount",
+          "description": "Count of subscriptions to the object."
+        },
+        "order": 13,
+        "usage": "Property",
+        "count": 1,
+        "type": "Integer",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "e1a502ef-27af-43b2-9528-459858f960cf",
+          "name": "act",
+          "description": ""
+        },
+        "order": 14,
+        "usage": "Property",
+        "count": 1,
+        "type": "Structure",
+        "reference": "/organizations/Test org/systems/Test System/applications/Test app/datasets/Action",
+        "optional": true,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [
+      {
+        "index": 1,
+        "values": [
+          "123",
+          "asd",
+          "{\"Name\":\"sadas\",\"Translations\":null}",
+          "",
+          "",
+          "Measure",
+          "External",
+          "",
+          "",
+          "",
+          "",
+          "1",
+          "2",
+          ""
+        ]
+      }
+    ],
+    "examples": []
+  }
+}
