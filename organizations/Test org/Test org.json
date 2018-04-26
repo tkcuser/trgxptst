@@ -49,6 +49,18 @@
           "name": "apdax-2x-01.png"
         },
         "uri": "/organizations/Test org/apdax-2x-01.png"
+      },
+      {
+        "identity": {
+          "name": "cancel-2x.png"
+        },
+        "uri": "/organizations/Test org/cancel-2x.png"
+      },
+      {
+        "identity": {
+          "name": "demo-2x-01.png"
+        },
+        "uri": "/organizations/Test org/demo-2x-01.png"
       }
     ],
     "contact": {
@@ -62,9 +74,9 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2018-04-26T13:50:45.21",
+      "created": "2018-04-26T13:51:12.837",
       "createdby": "mailfornik@gmail.com",
-      "updated": "2018-04-26T13:50:45.21",
+      "updated": "2018-04-26T13:51:12.837",
       "updatedby": "orzhan057@gmail.com",
       "completions": []
     }
