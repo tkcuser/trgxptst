@@ -21,10 +21,6 @@
         "name": "assadsadsad asdadsadsasd 3"
       },
       {
-        "name": "pepe",
-        "description": "pekekek"
-      },
-      {
         "name": "sdasafdsad 2"
       },
       {
@@ -45,13 +41,16 @@
       {
         "name": "tag 1",
         "description": "ssss"
-      },
-      {
-        "name": "tag 1",
-        "description": "ssss"
       }
     ],
-    "documents": [],
+    "documents": [
+      {
+        "identity": {
+          "name": "apdax-2x-01.png"
+        },
+        "uri": "/organizations/Test org/apdax-2x-01.png"
+      }
+    ],
     "contact": {
       "identity": {
         "description": ""
@@ -63,11 +62,11 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2018-02-02T14:19:28.29",
+      "created": "2018-04-26T13:50:45.21",
       "createdby": "mailfornik@gmail.com",
-      "updated": "2018-03-01T09:48:27.717",
+      "updated": "2018-04-26T13:50:45.21",
       "updatedby": "orzhan057@gmail.com",
-      "completion": []
+      "completions": []
     }
   },
   "integration": {
