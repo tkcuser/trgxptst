@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "id": "7a50f25d-0386-4820-a2b5-e8416786bd4a",
+    "name": "IssueType",
+    "description": "Enumerator of the issue types."
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "contact": {
+      "identity": {}
+    },
+    "type": "DataSet",
+    "usage": "Enum",
+    "properties": [
+      {
+        "identity": {
+          "name": "x"
+        },
+        "type": "String",
+        "value": "-1"
+      },
+      {
+        "identity": {
+          "name": "y"
+        },
+        "type": "String",
+        "value": "112"
+      },
+      {
+        "identity": {
+          "name": "color"
+        },
+        "type": "String",
+        "value": "#8F70CB"
+      },
+      {
+        "identity": {
+          "name": "links"
+        },
+        "type": "String",
+        "value": ""
+      },
+      {
+        "identity": {
+          "name": "links_onetomany"
+        },
+        "type": "String",
+        "value": ",Usage"
+      }
+    ],
+    "elements": [{"identity":{"name":"empty"},"frame":{"position":{"left":834,"top":0,"width":0,"height":0}},"style":{"border":{"left":{"color":"#8F70CB"}}}},{"identity":{"name":"sasaa"},"frame":{"position":{"left":403,"top":0,"width":0,"height":0}},"style":{"border":{"left":{"color":"#8F70CB"}}}},{"identity":{"name":"ytyt tata 66"},"frame":{"position":{"left":1,"top":112,"width":0,"height":0}},"style":{"border":{"left":{"color":"#8F70CB"}}}}],
+    "history": {
+      "created": "2017-03-01T14:26:53.51",
+      "createdby": "unknown",
+      "updated": "2018-05-01T09:02:09.913",
+      "updatedby": "orzhan057@gmail.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2018-05-01T09:00:31.047",
+          "completedby": "orzhan057@gmail.com",
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2767/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2018-05-01T09:01:59.04",
+          "completedby": "orzhan057@gmail.com",
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2767/messages/2"
+        }
+      ]
+    },
+    "lastapprovedversion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "external": false,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "2de669fe-896e-4edf-a885-ba15fffd1c84",
+          "name": "Type",
+          "description": "Type of the issue."
+        },
+        "order": 1,
+        "usage": "Name",
+        "type": "String",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "49b8d7df-a7e2-43ec-a4fb-d897adf8f59b",
+          "name": "Description",
+          "description": "Description for the issue type."
+        },
+        "order": 2,
+        "usage": "Description",
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "31b5f848-ea8e-4f3c-b234-2b465bc40ca6",
+          "name": "Period",
+          "description": "Factor value for period. Issue period defined by issue priority will be adjused by specified factor."
+        },
+        "order": 4,
+        "usage": "Property",
+        "count": 1,
+        "type": "Float",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "f27b1962-fddc-49d3-b490-5db8645f1679",
+          "name": "Settings",
+          "description": "This is referemce to dataset, which defines structure for first record of issue advance settings. If it is empty, no specific data required for this type of issue."
+        },
+        "order": 5,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "65feef43-6cc4-41cf-b602-cf4b9572eeca",
+          "name": "sfdsdsd",
+          "description": ""
+        },
+        "order": 6,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 55,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [
+      {
+        "index": 1,
+        "values": [
+          "Initiative",
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "index": 2,
+        "values": [
+          "Feature",
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "index": 3,
+        "values": [
+          "Discussion",
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "index": 4,
+        "values": [
+          "Work Item",
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "index": 5,
+        "values": [
+          "Support Request",
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "index": 6,
+        "values": [
+          "Design Suggestion",
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "index": 7,
+        "values": [
+          "Design Problem",
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "index": 8,
+        "values": [
+          "Code Defect",
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ],
+    "examples": []
+  }
+}
