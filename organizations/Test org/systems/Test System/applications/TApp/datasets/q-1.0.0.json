@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "id": "2aa2283e-fc8a-4e5b-8978-b18023bbeb35",
+    "name": "q"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "cc532b4e-558e-45ae-9958-1492027b0a25",
+      "name": "/organizations/Test org/systems/Test System/applications/TApp"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "contact": {
+      "identity": {}
+    },
+    "type": "DataSet",
+    "usage": "Resource",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2018-04-16T12:48:46.26",
+      "createdby": "orzhan057@gmail.com",
+      "updated": "2018-05-01T11:39:13.13",
+      "updatedby": "metadb_admin",
+      "completions": [
+        {
+          "status": "Approved",
+          "completed": "2018-05-01T11:40:01.72",
+          "completedby": "orzhan057@gmail.com",
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/TApp/issues/2768/messages/3"
+        }
+      ]
+    },
+    "lastapprovedversion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "74536489-e08c-487f-85a6-2b864805b85e",
+          "name": "a",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "Structure",
+        "reference": "/organizations/Test org/systems/Test System/applications/TApp/datasets/TData/versions/1.0.0",
+        "subscription": "",
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "keys": false,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}
