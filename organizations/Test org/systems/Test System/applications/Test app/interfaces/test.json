@@ -27,18 +27,18 @@
       "createdby": "metadb_admin",
       "updated": "9999-12-30T00:00:00",
       "updatedby": "mailfornik@gmail.com",
-      "completion": [
+      "completions": [
         {
           "status": "Finalized",
-          "completed": "2018-03-05T09:46:35.447",
+          "completed": "2018-05-15T14:08:19.783",
           "completedby": "mailfornik@gmail.com",
-          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2692/messages/2"
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2773/messages/2"
         },
         {
           "status": "Approved",
-          "completed": "2018-03-05T18:05:22.13",
+          "completed": "2018-05-15T14:08:34.217",
           "completedby": "mailfornik@gmail.com",
-          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2692/messages/2"
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2773/messages/2"
         }
       ]
     },
@@ -49,9 +49,140 @@
     }
   },
   "path": "",
-  "parameters": [],
-  "responses": [],
-  "operations": [],
+  "parameters": [
+    {
+      "location": "Body",
+      "field": {
+        "identity": {
+          "id": "8016cb67-3b4c-408b-abb7-e2d5a792ca45",
+          "name": "Name",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    },
+    {
+      "location": "Body",
+      "field": {
+        "identity": {
+          "id": "b552d3b9-d966-441e-92e4-d32ace51d44b",
+          "name": "Description",
+          "description": ""
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "code": "200",
+      "field": {
+        "identity": {
+          "id": "4436ca3a-931d-4ba2-a2c0-98bb98c01259",
+          "name": "ok",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "identity": {
+        "id": "46560392-ccb0-4a11-ad84-2826e49027b6",
+        "name": "GETList",
+        "description": ""
+      },
+      "deprecated": false,
+      "action": "GET",
+      "parameters": [],
+      "responses": [
+        {
+          "id": "4436ca3a-931d-4ba2-a2c0-98bb98c01259",
+          "name": "ok",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "identity": {
+        "id": "a230c036-d91e-4fb0-83ce-b35791ab139a",
+        "name": "GetItem",
+        "description": ""
+      },
+      "deprecated": false,
+      "action": "GET",
+      "parameters": [
+        {
+          "id": "8016cb67-3b4c-408b-abb7-e2d5a792ca45",
+          "name": "Name",
+          "description": ""
+        }
+      ],
+      "responses": [
+        {
+          "id": "4436ca3a-931d-4ba2-a2c0-98bb98c01259",
+          "name": "ok",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "identity": {
+        "id": "daf821fd-9bd3-43e6-8254-b67c3ba48ee7",
+        "name": "AddItem",
+        "description": ""
+      },
+      "deprecated": false,
+      "action": "POST",
+      "parameters": [
+        {
+          "id": "8016cb67-3b4c-408b-abb7-e2d5a792ca45",
+          "name": "Name",
+          "description": ""
+        },
+        {
+          "id": "b552d3b9-d966-441e-92e4-d32ace51d44b",
+          "name": "Description",
+          "description": ""
+        }
+      ],
+      "responses": [
+        {
+          "id": "4436ca3a-931d-4ba2-a2c0-98bb98c01259",
+          "name": "ok",
+          "description": ""
+        }
+      ]
+    }
+  ],
   "layouts": [],
   "examples": []
 }
