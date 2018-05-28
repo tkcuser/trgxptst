@@ -15,10 +15,16 @@
         "name": "777777777777777"
       },
       {
+        "name": "aaa"
+      },
+      {
         "name": "ads 4"
       },
       {
         "name": "assadsadsad asdadsadsasd 3"
+      },
+      {
+        "name": "attad21"
       },
       {
         "name": "sdasafdsad 2"
@@ -27,20 +33,10 @@
         "name": "sfdsdfdsdsf sfdfsdfssfd 5"
       },
       {
-        "name": "tag 1",
-        "description": "ssss"
+        "name": "t1"
       },
       {
-        "name": "tag 1",
-        "description": "ssss"
-      },
-      {
-        "name": "tag 1",
-        "description": "ssss"
-      },
-      {
-        "name": "tag 1",
-        "description": "ssss"
+        "name": "test tag"
       }
     ],
     "documents": [
@@ -74,9 +70,9 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2018-04-26T13:51:12.837",
+      "created": "2018-05-28T14:06:39.133",
       "createdby": "mailfornik@gmail.com",
-      "updated": "2018-04-26T13:51:12.837",
+      "updated": "2018-05-28T14:06:39.133",
       "updatedby": "orzhan057@gmail.com",
       "completions": []
     }
