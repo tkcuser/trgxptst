@@ -1,0 +1,111 @@
+{
+  "identity": {
+    "id": "374a8cfa-2ef0-4a87-80d3-5e267843c046",
+    "name": "TData"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "cc532b4e-558e-45ae-9958-1492027b0a25",
+      "name": "/organizations/Test org/systems/Test System/applications/TApp"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "contact": {
+      "identity": {}
+    },
+    "type": "DataSet",
+    "usage": "Resource",
+    "properties": [
+      {
+        "identity": {
+          "name": "test"
+        },
+        "type": "String",
+        "value": "11322"
+      },
+      {
+        "identity": {
+          "name": "x"
+        },
+        "type": "String",
+        "value": "363"
+      },
+      {
+        "identity": {
+          "name": "y"
+        },
+        "type": "String",
+        "value": "25"
+      }
+    ],
+    "elements": [],
+    "history": {
+      "created": "2017-03-03T13:56:39.79",
+      "createdby": "metadb_admin",
+      "updated": "9999-12-30T00:00:00",
+      "updatedby": "orzhan057@gmail.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2018-06-04T09:59:01.64",
+          "completedby": "orzhan057@gmail.com",
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/TApp/datasets/TData/issues/2888/messages/3"
+        },
+        {
+          "status": "Approved",
+          "completed": "2018-06-04T10:00:16.437",
+          "completedby": "orzhan057@gmail.com",
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/TApp/datasets/TData/issues/2888/messages/3"
+        }
+      ]
+    },
+    "lastapprovedversion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "aa4e4bad-d5d2-405c-94ea-527e59907db6",
+          "name": "Name",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": false,
+        "privacy": "High"
+      },
+      {
+        "identity": {
+          "id": "0e914963-665e-43fd-84c3-7269d2c874c1",
+          "name": "Age",
+          "description": ""
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "Integer",
+        "optional": true,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}
