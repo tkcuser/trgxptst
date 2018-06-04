@@ -1,0 +1,80 @@
+{
+  "identity": {
+    "id": "17c2709e-35f1-414d-bcbe-3857cef3a028",
+    "name": "Draft2"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "cc532b4e-558e-45ae-9958-1492027b0a25",
+      "name": "/organizations/Test org/systems/Test System/applications/TApp"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "contact": {
+      "identity": {}
+    },
+    "type": "DataSet",
+    "usage": "Resource",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2018-06-04T09:57:39.35",
+      "createdby": "orzhan057@gmail.com",
+      "updated": "9999-12-30T00:00:00",
+      "updatedby": "orzhan057@gmail.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2018-06-04T09:58:08.9",
+          "completedby": "orzhan057@gmail.com",
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/TApp/datasets/TData/issues/2888/messages/4"
+        },
+        {
+          "status": "Approved",
+          "completed": "2018-06-04T10:07:37.113",
+          "completedby": "orzhan057@gmail.com",
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/TApp/datasets/TData/issues/2888/messages/4"
+        }
+      ]
+    },
+    "lastapprovedversion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "a10f0926-4fbc-4183-b15c-f2b716cb53ab",
+          "name": "a",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}
