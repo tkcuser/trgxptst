@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "id": "4cc4691a-5dec-4d31-932d-2531737e2158",
+    "name": "Table:A"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "contact": {
+      "identity": {}
+    },
+    "type": "DataSet",
+    "usage": "Resource",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2018-06-19T09:21:47.52",
+      "createdby": "orzhan057@gmail.com",
+      "updated": "2018-06-19T09:31:33.283",
+      "updatedby": "metadb_admin",
+      "completions": [
+        {
+          "status": "Approved",
+          "completed": "2018-06-19T09:31:50.187",
+          "completedby": "orzhan057@gmail.com",
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2950/messages/2"
+        }
+      ]
+    },
+    "lastapprovedversion": {
+      "major": 1,
+      "minor": 1,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "617c1fbd-8c7f-4b30-b808-821616c0e03c",
+          "name": "dasas",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}
