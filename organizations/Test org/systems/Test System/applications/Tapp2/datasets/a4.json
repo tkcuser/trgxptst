@@ -26,20 +26,21 @@
     "history": {
       "created": "2018-07-02T13:29:35.54",
       "createdby": "orzhan057@gmail.com",
-      "updated": "9999-12-30T00:00:00",
-      "updatedby": "orzhan057@gmail.com",
+      "updated": "2018-07-02T13:41:04.817",
+      "updatedby": "unknown",
+      "mirrored": "2018-07-02T13:40:59.77",
       "completions": [
         {
           "status": "Finalized",
           "completed": "2018-07-02T13:29:44.14",
           "completedby": "orzhan057@gmail.com",
-          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Tapp2/datasets/a6/issues/2960/messages/7"
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Tapp2/datasets/a7/issues/2960/messages/7"
         },
         {
           "status": "Approved",
           "completed": "2018-07-02T13:40:40.927",
           "completedby": "orzhan057@gmail.com",
-          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Tapp2/datasets/a6/issues/2960/messages/7"
+          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Tapp2/datasets/a7/issues/2960/messages/7"
         }
       ]
     },
