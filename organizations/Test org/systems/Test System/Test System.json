@@ -21,17 +21,10 @@
         "name": "One tag"
       },
       {
-        "name": "pepe",
-        "description": "pekekek"
-      },
-      {
-        "name": "t1"
-      },
-      {
-        "name": "t1"
-      },
-      {
         "name": "t2"
+      },
+      {
+        "name": "t3"
       }
     ],
     "documents": [],
@@ -48,9 +41,9 @@
     "history": {
       "created": "2016-10-24T01:04:01.09",
       "createdby": "unknown",
-      "updated": "2018-03-01T09:49:29.633",
-      "updatedby": "orzhan057@gmail.com",
-      "completion": []
+      "updated": "2016-10-24T01:04:01.09",
+      "updatedby": "unknown",
+      "completions": []
     }
   }
 }
