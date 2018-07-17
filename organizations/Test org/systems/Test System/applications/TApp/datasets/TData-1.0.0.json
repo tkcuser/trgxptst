@@ -13,12 +13,8 @@
       "id": "cc532b4e-558e-45ae-9958-1492027b0a25",
       "name": "/organizations/Test org/systems/Test System/applications/TApp"
     },
-    "picture": "",
     "tags": [],
     "documents": [],
-    "contact": {
-      "identity": {}
-    },
     "type": "DataSet",
     "usage": "Resource",
     "properties": [
@@ -44,31 +40,12 @@
         "value": "25"
       }
     ],
-    "elements": [],
     "history": {
       "created": "2017-03-03T13:56:39.79",
       "createdby": "metadb_admin",
-      "updated": "9999-12-30T00:00:00",
-      "updatedby": "orzhan057@gmail.com",
-      "completions": [
-        {
-          "status": "Finalized",
-          "completed": "2018-06-04T09:59:01.64",
-          "completedby": "orzhan057@gmail.com",
-          "completedbymessage": "/organizations/Test org/systems/Test System/applications/TApp/datasets/TData/issues/2888/messages/3"
-        },
-        {
-          "status": "Approved",
-          "completed": "2018-06-04T10:00:16.437",
-          "completedby": "orzhan057@gmail.com",
-          "completedbymessage": "/organizations/Test org/systems/Test System/applications/TApp/datasets/TData/issues/2888/messages/3"
-        }
-      ]
-    },
-    "lastapprovedversion": {
-      "major": 1,
-      "minor": 0,
-      "revision": 0
+      "updated": "2016-10-24T01:04:01.09",
+      "updatedby": "metadb_admin",
+      "completions": []
     }
   },
   "external": true,
