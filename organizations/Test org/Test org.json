@@ -15,16 +15,10 @@
         "name": "777777777777777"
       },
       {
-        "name": "aaa"
-      },
-      {
         "name": "ads 4"
       },
       {
         "name": "assadsadsad asdadsadsasd 3"
-      },
-      {
-        "name": "attad21"
       },
       {
         "name": "sdasafdsad 2"
@@ -33,30 +27,40 @@
         "name": "sfdsdfdsdsf sfdfsdfssfd 5"
       },
       {
-        "name": "t1"
+        "name": "tag 1",
+        "description": "ssss"
       },
       {
-        "name": "test tag"
+        "name": "tag 1",
+        "description": "ssss"
+      },
+      {
+        "name": "tag 1",
+        "description": "ssss"
+      },
+      {
+        "name": "tag 1",
+        "description": "ssss"
       }
     ],
     "documents": [
       {
         "identity": {
-          "name": "apdax-2x-01.png"
+          "name": "alarm-yellow-2x.png"
         },
-        "uri": "/organizations/Test org/apdax-2x-01.png"
+        "uri": "/organizations/Test org/alarm-yellow-2x.png"
       },
       {
         "identity": {
-          "name": "cancel-2x.png"
+          "name": "left-arrow-2x.png"
         },
-        "uri": "/organizations/Test org/cancel-2x.png"
+        "uri": "/organizations/Test org/left-arrow-2x.png"
       },
       {
         "identity": {
-          "name": "demo-2x-01.png"
+          "name": "warning_2x.png"
         },
-        "uri": "/organizations/Test org/demo-2x-01.png"
+        "uri": "/organizations/Test org/warning_2x.png"
       }
     ],
     "contact": {
@@ -70,10 +74,10 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2018-05-28T14:07:25.707",
-      "createdby": "mailfornik@gmail.com",
-      "updated": "2018-05-28T14:07:25.707",
-      "updatedby": "orzhan057@gmail.com",
+      "created": "2018-08-21T12:55:08.32",
+      "createdBy": "mailfornik@gmail.com",
+      "updated": "2018-08-21T12:55:08.32",
+      "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
   },
