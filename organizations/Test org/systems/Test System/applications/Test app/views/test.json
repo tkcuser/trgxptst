@@ -1,0 +1,172 @@
+{
+  "identity": {
+    "id": "008e4b57-309f-4d9e-ada4-8a275292cd9e",
+    "name": "test"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "view",
+    "properties": [],
+    "history": {
+      "created": "2018-01-09T14:48:35.463",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2018-09-03T12:39:03.163",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2018-08-21T06:40:41.14",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/3201/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2018-09-03T12:39:02.967",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/3201/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "definitions": [
+    {
+      "locale": "1033",
+      "elements": [
+        {
+          "identity": {
+            "id": "fe0a5301-097c-4687-a853-8b8977836095",
+            "name": "e2",
+            "description": "nbvgfd"
+          },
+          "order": 1,
+          "parent": {
+            "name": ""
+          },
+          "style": {
+            "border": {},
+            "background": {},
+            "font": {}
+          },
+          "image": "",
+          "text": "ndfgbndfcxgnb",
+          "align": "",
+          "links": []
+        },
+        {
+          "identity": {
+            "id": "d273611b-cbe3-46d1-8025-6588f2b70243",
+            "name": "e3",
+            "description": "ndfcxvgvcdxgn"
+          },
+          "order": 3,
+          "parent": {
+            "name": ""
+          },
+          "style": {
+            "border": {},
+            "background": {},
+            "font": {}
+          },
+          "image": "",
+          "text": "ndcxfgnbdcxf",
+          "align": "",
+          "links": []
+        },
+        {
+          "identity": {
+            "id": "f7432cf8-79ec-4a76-925b-d02109c72791",
+            "name": "e5",
+            "description": "bgvcxzgbc"
+          },
+          "order": 5,
+          "parent": {
+            "name": ""
+          },
+          "style": {
+            "border": {},
+            "background": {},
+            "font": {}
+          },
+          "image": "",
+          "text": "bxbg",
+          "align": "",
+          "links": []
+        },
+        {
+          "identity": {
+            "id": "6d86bc02-ccd6-4665-87d0-1422a712a710",
+            "name": "v1",
+            "description": ""
+          },
+          "order": 0,
+          "parent": {
+            "name": ""
+          },
+          "frame": {
+            "position": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "width": 0,
+              "height": 0
+            },
+            "margin": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "width": 0
+            },
+            "border": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "width": 0
+            },
+            "padding": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "width": 0
+            },
+            "content": {
+              "left": 0,
+              "right": 0,
+              "top": 0,
+              "bottom": 0,
+              "width": 0
+            }
+          },
+          "style": {
+            "border": {},
+            "background": {},
+            "font": {}
+          },
+          "image": "",
+          "text": "",
+          "align": "",
+          "links": []
+        }
+      ]
+    }
+  ],
+  "layouts": []
+}
