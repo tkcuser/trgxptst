@@ -1,0 +1,35 @@
+{
+  "identity": {
+    "id": "e307ac25-eb42-4e3c-a1e7-2cf15f722408",
+    "name": "a"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "view",
+    "properties": [],
+    "history": {
+      "created": "2018-09-11T10:33:54.44",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2018-09-11T10:33:54.347",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": []
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "definitions": [],
+  "layouts": []
+}
