@@ -28,9 +28,9 @@
     "properties": [],
     "elements": [{"identity":{"name":"default:undefined"},"links":[],"frame":{"position":{"left":-363,"top":25,"width":0,"height":0}},"style":{"border":{"left":{"color":"#4CAF6D"}}}}],
     "history": {
-      "created": "2018-09-25T16:05:58.137",
+      "created": "2018-09-25T16:15:40.913",
       "createdBy": "metadb_admin",
-      "updated": "2018-09-25T16:05:58.137",
+      "updated": "2018-09-25T16:15:40.913",
       "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
