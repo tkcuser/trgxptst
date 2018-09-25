@@ -1,0 +1,38 @@
+{
+  "identity": {
+    "id": "cc532b4e-558e-45ae-9958-1492027b0a25",
+    "name": "TApp"
+  },
+  "object": {
+    "parent": {
+      "id": "68e7bdbf-d8c1-4bfb-b6bc-86b59265412c",
+      "name": "/organizations/Test org/systems/Test System"
+    },
+    "picture": "logo.png",
+    "tags": [
+      {
+        "name": "AT1"
+      }
+    ],
+    "documents": [
+      {
+        "identity": {
+          "name": "photo5210725190923823505.jpg"
+        },
+        "type": "Text",
+        "uri": "/organizations/Test org/systems/Test System/applications/TApp/photo5210725190923823505.jpg"
+      }
+    ],
+    "type": "Application",
+    "usage": "Dimension",
+    "properties": [],
+    "elements": [{"identity":{"name":"default:undefined"},"links":[],"frame":{"position":{"left":-363,"top":25,"width":0,"height":0}},"style":{"border":{"left":{"color":"#4CAF6D"}}}}],
+    "history": {
+      "created": "2018-09-25T15:36:41.2",
+      "createdBy": "metadb_admin",
+      "updated": "2018-09-25T15:36:41.2",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": []
+    }
+  }
+}
