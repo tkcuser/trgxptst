@@ -15,10 +15,16 @@
         "name": "777777777777777"
       },
       {
+        "name": "aaa"
+      },
+      {
         "name": "ads 4"
       },
       {
         "name": "assadsadsad asdadsadsasd 3"
+      },
+      {
+        "name": "attad21"
       },
       {
         "name": "sdasafdsad 2"
@@ -27,42 +33,13 @@
         "name": "sfdsdfdsdsf sfdfsdfssfd 5"
       },
       {
-        "name": "tag 1",
-        "description": "ssss"
+        "name": "t1"
       },
       {
-        "name": "tag 1",
-        "description": "ssss"
-      },
-      {
-        "name": "tag 1",
-        "description": "ssss"
-      },
-      {
-        "name": "tag 1",
-        "description": "ssss"
+        "name": "test tag"
       }
     ],
-    "documents": [
-      {
-        "identity": {
-          "name": "alarm-yellow-2x.png"
-        },
-        "uri": "/organizations/Test org/alarm-yellow-2x.png"
-      },
-      {
-        "identity": {
-          "name": "left-arrow-2x.png"
-        },
-        "uri": "/organizations/Test org/left-arrow-2x.png"
-      },
-      {
-        "identity": {
-          "name": "warning_2x.png"
-        },
-        "uri": "/organizations/Test org/warning_2x.png"
-      }
-    ],
+    "documents": [],
     "contact": {
       "identity": {
         "description": ""
@@ -74,10 +51,10 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2018-08-21T12:55:08.32",
+      "created": "2018-02-02T14:19:28.29",
       "createdBy": "mailfornik@gmail.com",
-      "updated": "2018-08-21T12:55:08.32",
-      "updatedBy": "orzhan057@gmail.com",
+      "updated": "2018-02-02T14:19:28.29",
+      "updatedBy": "unknown",
       "completions": []
     }
   },
