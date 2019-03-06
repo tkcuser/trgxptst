@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "id": "b540c7d3-094b-40be-b3c4-b4f42c7a7cd5",
+    "name": "asda3",
+    "description": "sda32"
+  },
+  "object": {
+    "parent": {
+      "id": "085d174f-8c1b-4611-bab9-788626ebca8c",
+      "name": "/organizations/Test org/systems/t5"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Application",
+    "properties": [],
+    "history": {
+      "created": "2019-03-06T12:49:29.263",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-03-06T12:49:29.263",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": []
+    }
+  }
+}
