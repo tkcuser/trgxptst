@@ -1,0 +1,34 @@
+{
+  "identity": {
+    "id": "085d174f-8c1b-4611-bab9-788626ebca8c",
+    "name": "t5",
+    "description": "asdasda"
+  },
+  "object": {
+    "parent": {
+      "id": "57bca937-14f0-416f-9b9d-9a03d9a38254",
+      "name": "/organizations/Test org"
+    },
+    "tags": [],
+    "documents": [],
+    "contact": {
+      "identity": {
+        "description": ""
+      },
+      "url": "",
+      "email": ""
+    },
+    "type": "System",
+    "usage": "Generic",
+    "access": "External",
+    "properties": [],
+    "history": {
+      "created": "2019-03-06T12:48:56.67",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-03-06T12:48:56.67",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": []
+    }
+  },
+  "locale": "ar-bh"
+}
