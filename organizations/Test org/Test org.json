@@ -2,7 +2,7 @@
   "identity": {
     "id": "57bca937-14f0-416f-9b9d-9a03d9a38254",
     "name": "Test org",
-    "description": "Test org description edit11"
+    "description": "Test org description edit1133\n"
   },
   "object": {
     "picture": "logo.png",
@@ -49,12 +49,13 @@
     },
     "type": "Org",
     "usage": "Resource",
+    "access": "External",
     "properties": [],
     "history": {
-      "created": "2018-02-02T14:19:28.29",
+      "created": "2019-03-08T13:57:15.93",
       "createdBy": "mailfornik@gmail.com",
-      "updated": "2018-02-02T14:19:28.29",
-      "updatedBy": "unknown",
+      "updated": "2019-03-08T13:57:15.93",
+      "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
   },
