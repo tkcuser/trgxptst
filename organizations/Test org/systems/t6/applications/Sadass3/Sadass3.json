@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "id": "c2c9600a-3475-4ffa-a496-0cf702d2f950",
+    "name": "Sadass3",
+    "description": "dassad"
+  },
+  "object": {
+    "parent": {
+      "id": "f3aacde3-a213-4ef8-8981-8c7076a1f0e9",
+      "name": "/organizations/Test org/systems/t6"
+    },
+    "tags": [],
+    "documents": [],
+    "contact": {
+      "identity": {
+        "description": ""
+      },
+      "url": "",
+      "email": ""
+    },
+    "type": "Application",
+    "usage": "Schema",
+    "access": "External",
+    "properties": [],
+    "history": {
+      "created": "2019-03-08T13:58:44.76",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-03-08T13:58:44.76",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": []
+    }
+  }
+}
