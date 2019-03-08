@@ -15,17 +15,17 @@
       "identity": {
         "description": ""
       },
-      "url": "",
-      "email": ""
+      "url": "dsada",
+      "email": "dassad"
     },
     "type": "Application",
     "usage": "Schema",
     "access": "External",
     "properties": [],
     "history": {
-      "created": "2019-03-08T13:58:44.76",
+      "created": "2019-03-08T13:59:13.933",
       "createdBy": "orzhan057@gmail.com",
-      "updated": "2019-03-08T13:58:44.76",
+      "updated": "2019-03-08T13:59:13.933",
       "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
