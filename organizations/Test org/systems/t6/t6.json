@@ -1,0 +1,34 @@
+{
+  "identity": {
+    "id": "f3aacde3-a213-4ef8-8981-8c7076a1f0e9",
+    "name": "t6",
+    "description": "sadas adas"
+  },
+  "object": {
+    "parent": {
+      "id": "57bca937-14f0-416f-9b9d-9a03d9a38254",
+      "name": "/organizations/Test org"
+    },
+    "tags": [],
+    "documents": [],
+    "contact": {
+      "identity": {
+        "description": ""
+      },
+      "url": "",
+      "email": ""
+    },
+    "type": "System",
+    "usage": "Database",
+    "access": "External",
+    "properties": [],
+    "history": {
+      "created": "2019-03-08T13:58:09.37",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-03-08T13:58:09.37",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": []
+    }
+  },
+  "locale": "ar-eg"
+}
