@@ -1,0 +1,52 @@
+{
+  "identity": {
+    "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+    "name": "Test app",
+    "description": "test"
+  },
+  "object": {
+    "parent": {
+      "id": "68e7bdbf-d8c1-4bfb-b6bc-86b59265412c",
+      "name": "/organizations/Test org/systems/Test System"
+    },
+    "picture": "logo.png",
+    "tags": [
+      {
+        "name": "AT2"
+      },
+      {
+        "name": "edas"
+      },
+      {
+        "name": "sadas"
+      }
+    ],
+    "documents": [
+      {
+        "identity": {
+          "name": "photo5210725190923823505.jpg"
+        },
+        "uri": "/organizations/Test org/systems/Test System/applications/Test app/photo5210725190923823505.jpg"
+      }
+    ],
+    "type": "Application",
+    "usage": "Dimension",
+    "properties": [
+      {
+        "identity": {
+          "name": "views"
+        },
+        "type": "String",
+        "value": "default, new view"
+      }
+    ],
+    "elements": [{"identity":{"name":"8828"},"links":[{"type":"One-To-One","element":{"name":"link"}}]}],
+    "history": {
+      "created": "2019-03-11T13:23:23.453",
+      "createdBy": "mailfornik@gmail.com",
+      "updated": "2019-03-11T13:23:23.453",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": []
+    }
+  }
+}
