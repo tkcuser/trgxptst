@@ -29,8 +29,16 @@
         "uri": "/organizations/Test org/systems/Test System/applications/Test app/photo5210725190923823505.jpg"
       }
     ],
+    "contact": {
+      "identity": {
+        "description": ""
+      },
+      "url": "dsfsd",
+      "email": ""
+    },
     "type": "Application",
     "usage": "Dimension",
+    "access": "External",
     "properties": [
       {
         "identity": {
@@ -42,9 +50,9 @@
     ],
     "elements": [{"identity":{"name":"8828"},"links":[{"type":"One-To-One","element":{"name":"link"}}]}],
     "history": {
-      "created": "2019-03-11T13:23:23.453",
+      "created": "2019-03-11T13:24:32.08",
       "createdBy": "mailfornik@gmail.com",
-      "updated": "2019-03-11T13:23:23.453",
+      "updated": "2019-03-11T13:24:32.08",
       "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
