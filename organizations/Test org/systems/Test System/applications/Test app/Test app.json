@@ -12,6 +12,9 @@
     "picture": "logo.png",
     "tags": [
       {
+        "name": "8888888888888"
+      },
+      {
         "name": "AT2"
       },
       {
@@ -50,9 +53,9 @@
     ],
     "elements": [{"identity":{"name":"8828"},"links":[{"type":"One-To-One","element":{"name":"link"}}]}],
     "history": {
-      "created": "2019-03-11T13:24:32.08",
+      "created": "2019-03-12T07:14:29.22",
       "createdBy": "mailfornik@gmail.com",
-      "updated": "2019-03-11T13:24:32.08",
+      "updated": "2019-03-12T07:14:29.22",
       "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
