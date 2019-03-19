@@ -1,0 +1,104 @@
+{
+  "identity": {
+    "id": "979b11a3-2164-4f00-9ca2-d4f6b0e06758",
+    "name": "test format"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "contact": {
+      "identity": {
+        "description": ""
+      },
+      "url": "",
+      "email": ""
+    },
+    "type": "DataSet",
+    "usage": "Format",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2019-03-19T12:36:13.867",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-03-19T12:37:28.13",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2019-03-19T12:37:14.92",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/3592/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2019-03-19T12:37:28.027",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/3592/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "61670779-6e8e-4627-9c0a-65a9aa630fe2",
+          "name": "sadas",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "6140ada3-7f81-485a-9025-b6ecb15bdde8",
+          "name": "dasd",
+          "description": ""
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "Structure",
+        "reference": "/organizations/Test org/systems/Test System/applications/Test app/datasets/Country/versions/1.0.0",
+        "subscription": "",
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "keys": false,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}
