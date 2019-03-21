@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "id": "0a829133-d7a6-472e-a3f7-7b8b3097778c",
+    "name": "TR"
+  },
+  "object": {
+    "parent": {
+      "id": "57bca937-14f0-416f-9b9d-9a03d9a38254",
+      "name": "/organizations/Test org"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "System",
+    "properties": [],
+    "history": {
+      "created": "2019-03-21T13:34:34.697",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-03-21T13:34:34.697",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": []
+    }
+  }
+}
