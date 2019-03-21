@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "id": "73a7490c-2f5e-4516-a1bd-13c158715707",
+    "name": "DaaS"
+  },
+  "object": {
+    "parent": {
+      "id": "57bca937-14f0-416f-9b9d-9a03d9a38254",
+      "name": "/organizations/Test org"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "System",
+    "properties": [],
+    "history": {
+      "created": "2019-03-21T13:32:32.35",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-03-21T13:32:32.35",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": []
+    }
+  }
+}
