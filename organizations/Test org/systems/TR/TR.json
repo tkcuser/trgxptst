@@ -10,14 +10,23 @@
     },
     "tags": [],
     "documents": [],
+    "contact": {
+      "identity": {
+        "description": ""
+      },
+      "url": "",
+      "email": ""
+    },
     "type": "System",
+    "access": "External",
     "properties": [],
     "history": {
-      "created": "2019-03-21T13:34:34.697",
+      "created": "2019-03-21T13:41:16.013",
       "createdBy": "orzhan057@gmail.com",
-      "updated": "2019-03-21T13:34:34.697",
+      "updated": "2019-03-21T13:41:16.013",
       "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
-  }
+  },
+  "locale": ""
 }
