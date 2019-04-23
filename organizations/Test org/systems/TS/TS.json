@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "id": "e209ecc8-11f8-44fb-961d-858dc6f8001d",
+    "name": "TS",
+    "description": "TSD"
+  },
+  "object": {
+    "parent": {
+      "id": "57bca937-14f0-416f-9b9d-9a03d9a38254",
+      "name": "/organizations/Test org"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "System",
+    "properties": [],
+    "history": {
+      "created": "2019-04-23T14:52:30.423",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-04-23T14:52:30.423",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": []
+    }
+  }
+}
