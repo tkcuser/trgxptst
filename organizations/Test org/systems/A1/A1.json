@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "id": "57796543-334a-4a42-a5d3-431ebebc2d59",
+    "name": "A1",
+    "description": "AD"
+  },
+  "object": {
+    "parent": {
+      "id": "57bca937-14f0-416f-9b9d-9a03d9a38254",
+      "name": "/organizations/Test org"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "System",
+    "properties": [],
+    "history": {
+      "created": "2019-05-07T16:23:06.8",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-05-07T16:23:06.8",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": []
+    }
+  }
+}
