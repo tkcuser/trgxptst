@@ -2,7 +2,7 @@
   "identity": {
     "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
     "name": "Test app",
-    "description": "test"
+    "description": "test sadasdjsakdjl WRYWRYtest sadasdjsakdjl WRYWRYtest sadasdjsakdjl WRYWRYtest sadasdjsakdjl WRYWRYtest sadasdjsakdjl WRYWRYtest sadasdjsakdjl WRYWRYtest sadasdjsakdjl WRYWRYtest sadasdjsakdjl WRYWRYtest sadasdjsakdjl WRYWRYtest sadasdjsakdjl WRYWRYtest sadasdjsakdjl WRYWRY"
   },
   "object": {
     "parent": {
@@ -32,13 +32,6 @@
         "uri": "/organizations/Test org/systems/Test System/applications/Test app/photo5210725190923823505.jpg"
       }
     ],
-    "contact": {
-      "identity": {
-        "description": ""
-      },
-      "url": "dsfsd",
-      "email": ""
-    },
     "type": "Application",
     "usage": "Dimension",
     "access": "External",
@@ -53,9 +46,9 @@
     ],
     "elements": [{"identity":{"name":"8828"},"links":[{"type":"One-To-One","element":{"name":"link"}}]}],
     "history": {
-      "created": "2019-03-12T07:14:29.22",
+      "created": "2019-05-07T13:05:53.163",
       "createdBy": "mailfornik@gmail.com",
-      "updated": "2019-03-12T07:14:29.22",
+      "updated": "2019-05-07T13:05:53.163",
       "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
