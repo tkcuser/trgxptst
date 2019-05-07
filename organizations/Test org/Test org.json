@@ -40,13 +40,6 @@
       }
     ],
     "documents": [],
-    "contact": {
-      "identity": {
-        "description": ""
-      },
-      "url": "",
-      "email": ""
-    },
     "type": "Org",
     "usage": "Resource",
     "access": "External",
