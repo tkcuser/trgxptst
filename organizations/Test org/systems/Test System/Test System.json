@@ -2,7 +2,7 @@
   "identity": {
     "id": "68e7bdbf-d8c1-4bfb-b6bc-86b59265412c",
     "name": "Test System",
-    "description": "test"
+    "description": "Some system description. When you have a large enough application, a single large bundle with all of your code becomes a problem for startup time. You need to start breaking your app into separate bundles and load them dynamically when needed."
   },
   "object": {
     "parent": {
@@ -32,10 +32,10 @@
     "usage": "Generic",
     "properties": [],
     "history": {
-      "created": "2019-05-06T17:11:02.317",
+      "created": "2016-10-24T01:04:01.09",
       "createdBy": "unknown",
-      "updated": "2019-05-06T17:11:02.317",
-      "updatedBy": "orzhan057@gmail.com",
+      "updated": "2016-10-24T01:04:01.09",
+      "updatedBy": "unknown",
       "completions": []
     }
   }
