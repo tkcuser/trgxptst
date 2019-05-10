@@ -6,7 +6,7 @@
   },
   "version": {
     "major": 1,
-    "minor": 1,
+    "minor": 0,
     "revision": 0
   },
   "object": {
@@ -15,59 +15,11 @@
       "name": "/organizations/Test org/systems/Test System/applications/Test app"
     },
     "picture": "",
-    "tags": [
-      {
-        "name": "A"
-      },
-      {
-        "name": "A"
-      },
-      {
-        "name": "b"
-      },
-      {
-        "name": "c"
-      },
-      {
-        "name": "d"
-      },
-      {
-        "name": "eeeee"
-      },
-      {
-        "name": "ff f"
-      },
-      {
-        "name": "gg g"
-      },
-      {
-        "name": "gh56"
-      },
-      {
-        "name": "hhh"
-      },
-      {
-        "name": "kkkkkkkkk"
-      },
-      {
-        "name": "llllll"
-      },
-      {
-        "name": "mm"
-      },
-      {
-        "name": "n"
-      },
-      {
-        "name": "ooooooo"
-      }
-    ],
+    "tags": [],
     "documents": [],
-    "contact": {
-      "identity": {}
-    },
     "type": "DataSet",
-    "usage": "Enum",
+    "usage": "Transform",
+    "access": "External",
     "properties": [
       {
         "identity": {
@@ -107,29 +59,28 @@
     ],
     "elements": [{"identity":{"name":"empty"},"frame":{"position":{"left":834,"top":0,"width":0,"height":0}},"style":{"border":{"left":{"color":"#8F70CB"}}}},{"identity":{"name":"sasaa"},"frame":{"position":{"left":403,"top":0,"width":0,"height":0}},"style":{"border":{"left":{"color":"#8F70CB"}}}},{"identity":{"name":"ytyt tata 66"},"frame":{"position":{"left":1,"top":112,"width":0,"height":0}},"style":{"border":{"left":{"color":"#8F70CB"}}}}],
     "history": {
-      "created": "2018-05-01T09:02:10.04",
-      "createdby": "unknown",
-      "updated": "9999-12-30T00:00:00",
-      "updatedby": "orzhan057@gmail.com",
-      "mirrored": "2018-05-01T09:02:08.373",
+      "created": "2017-03-01T14:26:53.51",
+      "createdBy": "unknown",
+      "updated": "2019-05-10T14:14:44.603",
+      "updatedBy": "orzhan057@gmail.com",
       "completions": [
         {
           "status": "Finalized",
-          "completed": "2018-05-07T14:42:38.527",
-          "completedby": "orzhan057@gmail.com",
-          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2770/messages/2"
+          "completed": "2019-05-10T14:14:35.84",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/3761/messages/2"
         },
         {
           "status": "Approved",
-          "completed": "2018-05-07T14:46:43.383",
-          "completedby": "orzhan057@gmail.com",
-          "completedbymessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2770/messages/2"
+          "completed": "2019-05-10T14:14:44.467",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/3761/messages/2"
         }
       ]
     },
-    "lastapprovedversion": {
+    "lastApprovedVersion": {
       "major": 1,
-      "minor": 1,
+      "minor": 0,
       "revision": 0
     }
   },
@@ -140,7 +91,7 @@
         "identity": {
           "id": "2de669fe-896e-4edf-a885-ba15fffd1c84",
           "name": "Type",
-          "description": "Type of the issue. ada2"
+          "description": "Type of the issue."
         },
         "order": 1,
         "usage": "Name",
@@ -162,6 +113,32 @@
       },
       {
         "identity": {
+          "id": "f0aed6d1-415b-42ca-9e0c-3df6793efc16",
+          "name": "Code",
+          "description": "Code for the issue type."
+        },
+        "order": 3,
+        "usage": "Value",
+        "count": 1,
+        "type": "Byte",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "31b5f848-ea8e-4f3c-b234-2b465bc40ca6",
+          "name": "Period",
+          "description": "Factor value for period. Issue period defined by issue priority will be adjused by specified factor."
+        },
+        "order": 4,
+        "usage": "Property",
+        "count": 1,
+        "type": "Float",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
           "id": "f27b1962-fddc-49d3-b490-5db8645f1679",
           "name": "Settings",
           "description": "This is referemce to dataset, which defines structure for first record of issue advance settings. If it is empty, no specific data required for this type of issue."
@@ -171,40 +148,6 @@
         "count": 1,
         "type": "String",
         "optional": false,
-        "privacy": "low"
-      },
-      {
-        "identity": {
-          "id": "65feef43-6cc4-41cf-b602-cf4b9572eeca",
-          "name": "sfdsdsd",
-          "description": ""
-        },
-        "order": 6,
-        "usage": "Property",
-        "count": 1,
-        "type": "Structure",
-        "reference": "/organizations/Test org/systems/Test System/applications/Test app/datasets/Country/versions/1.0.0",
-        "subscription": "",
-        "optional": true,
-        "value": "a",
-        "format": "55",
-        "access": 255,
-        "privacy": "low"
-      },
-      {
-        "identity": {
-          "id": "81c9a180-26e8-4be1-ae49-2ea36891a9b9",
-          "name": "fd32",
-          "description": ""
-        },
-        "order": 7,
-        "usage": "Property",
-        "count": 1,
-        "type": "Integer",
-        "optional": true,
-        "value": "",
-        "format": "",
-        "access": 255,
         "privacy": "low"
       }
     ],
@@ -217,80 +160,80 @@
         "index": 1,
         "values": [
           "Initiative",
-          null,
-          null,
-          null,
-          null
+          "Initiative for busness solution.",
+          "0",
+          "1.0",
+          ""
         ]
       },
       {
         "index": 2,
         "values": [
           "Feature",
-          null,
-          null,
-          null,
-          null
+          "Feature for system or application.",
+          "1",
+          "1.0",
+          ""
         ]
       },
       {
         "index": 3,
         "values": [
           "Discussion",
-          null,
-          null,
-          null,
-          null
+          "Discussion about any topic.",
+          "2",
+          "1.0",
+          ""
         ]
       },
       {
         "index": 4,
         "values": [
           "Work Item",
-          null,
-          null,
-          null,
-          null
+          "Work Item for changes in design or code.  Default type for issue.",
+          "3",
+          "1.0",
+          ""
         ]
       },
       {
         "index": 5,
         "values": [
           "Support Request",
-          null,
-          null,
-          null,
-          null
+          "Request for support from team or organization.",
+          "4",
+          "1.0",
+          ""
         ]
       },
       {
         "index": 6,
         "values": [
           "Design Suggestion",
-          null,
-          null,
-          null,
-          null
+          "Suggestion for object design.",
+          "5",
+          "1.0",
+          ""
         ]
       },
       {
         "index": 7,
         "values": [
           "Design Problem",
-          null,
-          null,
-          null,
-          null
+          "Problem in object design.",
+          "6",
+          "1.0",
+          ""
         ]
       },
       {
         "index": 8,
         "values": [
           "Code Defect",
-          null,
-          null,
-          null,
-          null
+          "Problem in implementation.",
+          "7",
+          "1.0",
+          ""
         ]
       }
     ],
