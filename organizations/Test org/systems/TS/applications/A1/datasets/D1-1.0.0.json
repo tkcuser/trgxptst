@@ -1,0 +1,89 @@
+{
+  "identity": {
+    "id": "c1006e3e-2d92-4a23-9bf5-e7419721cb26",
+    "name": "D1",
+    "description": "DD"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "032d0c2a-db4b-43b1-bd1a-c5403ff142a5",
+      "name": "/organizations/Test org/systems/TS/applications/A1"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Resource",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2019-05-10T15:06:44.91",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-05-10T15:08:34.65",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": [
+        {
+          "status": "Approved",
+          "completed": "2019-05-10T15:08:18.95",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/3762/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "8b06fcee-3b8b-4fe9-aa26-cd09458611d1",
+          "name": "F1",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "e42bad4f-dc5c-488c-b505-d24870e7e9be",
+          "name": "F2",
+          "description": ""
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "Integer",
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}
