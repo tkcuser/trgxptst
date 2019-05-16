@@ -1,6 +1,6 @@
 {
   "identity": {
-    "id": "c1006e3e-2d92-4a23-9bf5-e7419721cb26",
+    "id": "0f00f01f-ea31-4853-b1ec-a73d213e5eec",
     "name": "D1",
     "description": "DD"
   },
@@ -11,7 +11,7 @@
   },
   "object": {
     "parent": {
-      "id": "032d0c2a-db4b-43b1-bd1a-c5403ff142a5",
+      "id": "4109a77a-ca5f-473e-bd64-81ababd50f46",
       "name": "/organizations/Test org/systems/TS/applications/A1"
     },
     "picture": "",
@@ -23,17 +23,17 @@
     "properties": [],
     "elements": [],
     "history": {
-      "created": "2019-05-10T15:13:28.337",
-      "createdBy": "orzhan057@gmail.com",
-      "updated": "2019-05-10T15:14:40.067",
+      "created": "2019-05-16T13:32:02.917",
+      "createdBy": "developer.apdax2@yandex.ru",
+      "updated": "2019-05-16T13:33:39.053",
       "updatedBy": "orzhan057@gmail.com",
-      "mirrored": "2019-05-10T15:13:25.967",
+      "mirrored": "2019-05-16T13:32:11.387",
       "completions": [
         {
           "status": "Approved",
-          "completed": "2019-05-10T15:14:36.547",
+          "completed": "2019-05-16T13:33:32.903",
           "completedBy": "orzhan057@gmail.com",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/3764/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/3779/messages/2"
         }
       ]
     },
@@ -48,7 +48,7 @@
     "fields": [
       {
         "identity": {
-          "id": "8b06fcee-3b8b-4fe9-aa26-cd09458611d1",
+          "id": "8e74fd71-c9f0-4bc7-bb7d-7e322999b19f",
           "name": "F1",
           "description": ""
         },
@@ -57,22 +57,6 @@
         "count": 1,
         "type": "String",
         "size": 0,
-        "optional": true,
-        "value": "",
-        "format": "",
-        "access": 255,
-        "privacy": "low"
-      },
-      {
-        "identity": {
-          "id": "e42bad4f-dc5c-488c-b505-d24870e7e9be",
-          "name": "F2",
-          "description": ""
-        },
-        "order": 2,
-        "usage": "Property",
-        "count": 1,
-        "type": "Integer",
         "optional": true,
         "value": "",
         "format": "",
