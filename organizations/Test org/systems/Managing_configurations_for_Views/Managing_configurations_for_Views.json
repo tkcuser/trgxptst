@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "id": "7ce09024-70ff-459d-828b-e3eefd770d67",
+    "name": "Managing_configurations_for_Views"
+  },
+  "object": {
+    "parent": {
+      "id": "57bca937-14f0-416f-9b9d-9a03d9a38254",
+      "name": "/organizations/Test org"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "System",
+    "properties": [],
+    "history": {
+      "created": "2019-05-17T09:36:31.187",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-05-17T09:36:31.187",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": []
+    }
+  }
+}
