@@ -1,8 +1,7 @@
 {
   "identity": {
-    "id": "849b9f98-6833-4eb0-94d8-99f518f0a575",
-    "name": "TS",
-    "description": "TSD"
+    "id": "2b9c1c2a-cc1f-4767-b843-c35a86cc570a",
+    "name": "TS"
   },
   "object": {
     "parent": {
@@ -14,10 +13,10 @@
     "type": "System",
     "properties": [],
     "history": {
-      "created": "2019-05-21T17:25:17.38",
-      "createdBy": "developer.apdax2@yandex.ru",
-      "updated": "2019-05-21T17:25:17.38",
-      "updatedBy": "developer.apdax2@yandex.ru",
+      "created": "2019-05-22T14:19:35.133",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-05-22T14:19:35.133",
+      "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
   }
