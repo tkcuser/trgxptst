@@ -1,0 +1,54 @@
+{
+  "identity": {
+    "id": "60d2aff4-18ca-4e87-877e-a9a31bdefc33",
+    "name": "Access"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Resource",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2019-05-28T12:00:29.78",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-05-28T12:01:23.153",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": [
+        {
+          "status": "Approved",
+          "completed": "2019-05-28T12:01:16.563",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/3826/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}
