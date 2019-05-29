@@ -44,9 +44,9 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2019-05-29T18:17:45.09",
+      "created": "2019-05-29T18:21:52.817",
       "createdBy": "mailfornik@gmail.com",
-      "updated": "2019-05-29T18:17:45.09",
+      "updated": "2019-05-29T18:21:52.817",
       "updatedBy": "unknown",
       "completions": []
     }
@@ -56,7 +56,7 @@
     "user": "tkcuser",
     "password": "7-:SF%#y;F6E",
     "integration": true,
-    "status": ""
+    "status": "Failed to query https://bias-metadata-service-dev.difhub.com/api/organizations/Test org/systems/Test System/topologies/Test: 500 (Internal Server Error)"
   },
   "encryption": "ads"
 }
