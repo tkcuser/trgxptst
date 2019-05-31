@@ -1,6 +1,6 @@
 {
   "identity": {
-    "id": "71d2a050-37d7-4f36-bb4f-8919147a1e2d",
+    "id": "e96e9ac8-880d-4f45-9f35-90a43226b0f4",
     "name": "D1",
     "description": "DD"
   },
@@ -11,7 +11,7 @@
   },
   "object": {
     "parent": {
-      "id": "037cbf8f-91d8-4c3b-91c3-c4b399be65da",
+      "id": "f8b56760-f1ee-47a1-9277-fe42d47df3d0",
       "name": "/organizations/Test org/systems/TS/applications/A1"
     },
     "picture": "",
@@ -23,16 +23,16 @@
     "properties": [],
     "elements": [],
     "history": {
-      "created": "2019-05-30T16:38:08.483",
+      "created": "2019-05-31T12:35:14.96",
       "createdBy": "developer.apdax@mail.ru",
-      "updated": "2019-05-30T16:45:55.197",
+      "updated": "2019-05-31T12:41:54.94",
       "updatedBy": "developer.apdax@mail.ru",
       "completions": [
         {
           "status": "Approved",
-          "completed": "2019-05-30T16:45:43.307",
+          "completed": "2019-05-31T12:41:42.963",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/3822/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/3824/messages/2"
         }
       ]
     },
@@ -47,7 +47,7 @@
     "fields": [
       {
         "identity": {
-          "id": "7f581745-76f3-4707-9e6b-8d0c502d9284",
+          "id": "6625f26a-828a-4433-bc32-d5a94fdf7aaa",
           "name": "F1",
           "description": ""
         },
@@ -56,6 +56,22 @@
         "count": 1,
         "type": "String",
         "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "42ac28f6-00d9-41c0-98b9-8f279fa9d984",
+          "name": "F2",
+          "description": ""
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "Integer",
         "optional": true,
         "value": "",
         "format": "",
