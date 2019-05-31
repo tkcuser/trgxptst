@@ -1,0 +1,39 @@
+{
+  "identity": {
+    "id": "a75c5028-19ee-44ef-80c4-c127a3c13512",
+    "name": "sadasss"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "68e7bdbf-d8c1-4bfb-b6bc-86b59265412c",
+      "name": "/organizations/Test org/systems/Test System"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "topology",
+    "usage": "Resource",
+    "properties": [],
+    "history": {
+      "created": "2019-05-17T12:28:15.11",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-05-28T05:51:12.477",
+      "updatedBy": "mailfornik@gmail.com",
+      "completions": []
+    }
+  },
+  "instances": [
+    {
+      "identity": {
+        "id": "b32430dc-1dc8-430d-babb-8aa44d522adf",
+        "name": "test instance",
+        "description": ""
+      },
+      "units": "utu"
+    }
+  ]
+}
