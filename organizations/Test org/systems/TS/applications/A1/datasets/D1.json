@@ -14,17 +14,33 @@
       "id": "c0cd5bfd-f333-4bd1-bbe8-5784d5e3f6e2",
       "name": "/organizations/Test org/systems/TS/applications/A1"
     },
+    "picture": "",
     "tags": [],
     "documents": [],
     "type": "DataSet",
     "usage": "Resource",
+    "access": "External",
     "properties": [],
+    "elements": [],
     "history": {
       "created": "2019-06-01T10:49:30.793",
       "createdBy": "developer.apdax@mail.ru",
-      "updated": "2019-06-01T10:49:34.587",
+      "updated": "2019-06-01T10:56:21.003",
       "updatedBy": "developer.apdax@mail.ru",
-      "completions": []
+      "mirrored": "2019-06-01T10:50:07.667",
+      "completions": [
+        {
+          "status": "Approved",
+          "completed": "2019-06-01T10:56:09.113",
+          "completedBy": "developer.apdax@mail.ru",
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/3870/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
     }
   },
   "external": true,
