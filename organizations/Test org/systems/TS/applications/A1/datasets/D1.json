@@ -1,6 +1,6 @@
 {
   "identity": {
-    "id": "ce12fe3b-e881-46ea-8bcd-baa22b1e5de5",
+    "id": "b2fb3205-4209-4d83-a9e1-8a0f14391b45",
     "name": "D1",
     "description": "DD"
   },
@@ -11,47 +11,43 @@
   },
   "object": {
     "parent": {
-      "id": "4850c447-1ffc-4fd9-8019-7b182ad9dd92",
+      "id": "7e26aae2-68ce-43e0-bedd-d29d9c0ccddf",
       "name": "/organizations/Test org/systems/TS/applications/A1"
     },
-    "picture": "",
     "tags": [],
     "documents": [],
     "type": "DataSet",
     "usage": "Resource",
-    "access": "External",
     "properties": [],
-    "elements": [],
     "history": {
-      "created": "2019-06-02T08:49:47.6",
+      "created": "2019-06-02T10:49:35.423",
       "createdBy": "developer.apdax@mail.ru",
-      "updated": "2019-06-02T08:55:48.507",
+      "updated": "2019-06-02T10:49:39.7",
       "updatedBy": "developer.apdax@mail.ru",
-      "mirrored": "2019-06-02T08:50:20.193",
-      "completions": [
-        {
-          "status": "Finalized",
-          "completed": "2019-06-02T08:55:37.927",
-          "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/3912/messages/2"
-        },
-        {
-          "status": "Approved",
-          "completed": "2019-06-02T08:55:48.397",
-          "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/3912/messages/2"
-        }
-      ]
-    },
-    "lastApprovedVersion": {
-      "major": 1,
-      "minor": 0,
-      "revision": 0
+      "completions": []
     }
   },
   "external": true,
   "structure": {
-    "fields": [],
+    "fields": [
+      {
+        "identity": {
+          "id": "a063a53a-bf41-4770-8025-578cf43a1828",
+          "name": "F1",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
     "keys": []
   },
   "layouts": [],
