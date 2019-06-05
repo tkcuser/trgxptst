@@ -44,9 +44,9 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2019-06-05T12:55:59.453",
+      "created": "2019-06-05T12:56:08.92",
       "createdBy": "mailfornik@gmail.com",
-      "updated": "2019-06-05T12:55:59.453",
+      "updated": "2019-06-05T12:56:08.92",
       "updatedBy": "unknown",
       "completions": []
     }
@@ -56,7 +56,7 @@
     "user": "tkcuser",
     "password": "7-:SF%#y;F6E",
     "integration": true,
-    "status": "cannot push because a reference that you are trying to update on the remote contains commits that are not present locally."
+    "status": ""
   },
   "encryption": "ads"
 }
