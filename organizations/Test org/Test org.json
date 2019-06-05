@@ -44,9 +44,9 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2019-06-05T15:32:31.63",
+      "created": "2019-06-05T15:34:57.05",
       "createdBy": "mailfornik@gmail.com",
-      "updated": "2019-06-05T15:32:31.63",
+      "updated": "2019-06-05T15:34:57.05",
       "updatedBy": "unknown",
       "completions": []
     }
@@ -56,7 +56,7 @@
     "user": "tkcuser",
     "password": "7-:SF%#y;F6E",
     "integration": true,
-    "status": ""
+    "status": "Failed to query https://bias-metadata-service-dev.difhub.com/api/organizations/Test org/systems/TS/applications/A1/datasets/D1/versions/1.0.0: 404 (Not Found)"
   },
   "encryption": "ads"
 }
