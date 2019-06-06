@@ -21,7 +21,7 @@
     "history": {
       "created": "2019-06-06T05:35:09.587",
       "createdBy": "mailfornik@gmail.com",
-      "updated": "2019-06-06T05:39:07.427",
+      "updated": "2019-06-06T05:58:36.75",
       "updatedBy": "mailfornik@gmail.com",
       "completions": []
     }
@@ -34,6 +34,14 @@
         "description": "some instance description"
       },
       "units": "uuunnniiittt"
+    },
+    {
+      "identity": {
+        "id": "a8344d7c-38cd-446e-813a-15cf74e2b60a",
+        "name": "Instance with platform",
+        "description": ""
+      },
+      "units": "ex-unit"
     }
   ]
 }
