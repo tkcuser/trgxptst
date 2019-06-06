@@ -1,0 +1,39 @@
+{
+  "identity": {
+    "id": "ca96113c-3902-4aae-b2f2-bab5786be016",
+    "name": "zz"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "68e7bdbf-d8c1-4bfb-b6bc-86b59265412c",
+      "name": "/organizations/Test org/systems/Test System"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "topology",
+    "usage": "Resource",
+    "properties": [],
+    "history": {
+      "created": "2019-06-06T05:35:09.587",
+      "createdBy": "mailfornik@gmail.com",
+      "updated": "2019-06-06T05:39:07.427",
+      "updatedBy": "mailfornik@gmail.com",
+      "completions": []
+    }
+  },
+  "instances": [
+    {
+      "identity": {
+        "id": "966db33d-7703-4f06-8974-8d899ea7670a",
+        "name": "Some instance",
+        "description": "some instance description"
+      },
+      "units": "uuunnniiittt"
+    }
+  ]
+}
