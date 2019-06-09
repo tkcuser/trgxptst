@@ -7,7 +7,7 @@
   "version": {
     "major": 1,
     "minor": 0,
-    "revision": 0
+    "revision": 1
   },
   "object": {
     "parent": {
@@ -23,23 +23,30 @@
     "properties": [],
     "elements": [],
     "history": {
-      "created": "2019-06-09T11:36:10.92",
+      "created": "2019-06-09T11:44:21.827",
       "createdBy": "developer.apdax@mail.ru",
-      "updated": "2019-06-09T11:44:21.69",
+      "updated": "2019-06-09T13:15:48.907",
       "updatedBy": "developer.apdax@mail.ru",
+      "mirrored": "2019-06-09T11:44:53.503",
       "completions": [
         {
-          "status": "Approved",
-          "completed": "2019-06-09T11:44:09.86",
+          "status": "Finalized",
+          "completed": "2019-06-09T13:15:37.99",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/4225/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/4226/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2019-06-09T13:15:48.567",
+          "completedBy": "developer.apdax@mail.ru",
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/4226/messages/2"
         }
       ]
     },
     "lastApprovedVersion": {
       "major": 1,
       "minor": 0,
-      "revision": 0
+      "revision": 1
     }
   },
   "external": true,
