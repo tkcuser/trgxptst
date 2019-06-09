@@ -1,17 +1,17 @@
 {
   "identity": {
-    "id": "baae96b6-8fbe-465f-9f2c-2d0560094d43",
+    "id": "f8729f26-c15c-4567-9bb9-e41cc00b33c4",
     "name": "D1",
     "description": "DD"
   },
   "version": {
     "major": 1,
     "minor": 0,
-    "revision": 1
+    "revision": 0
   },
   "object": {
     "parent": {
-      "id": "3663f849-dc7f-41d7-8ffa-5c046c578a6e",
+      "id": "a9269703-ef9f-4cd0-9dd1-da940206d1db",
       "name": "/organizations/Test org/systems/TS/applications/A1"
     },
     "picture": "",
@@ -23,30 +23,23 @@
     "properties": [],
     "elements": [],
     "history": {
-      "created": "2019-06-09T11:44:21.827",
+      "created": "2019-06-09T13:36:09.727",
       "createdBy": "developer.apdax@mail.ru",
-      "updated": "2019-06-09T13:15:48.907",
+      "updated": "2019-06-09T13:44:22.333",
       "updatedBy": "developer.apdax@mail.ru",
-      "mirrored": "2019-06-09T11:44:53.503",
       "completions": [
         {
-          "status": "Finalized",
-          "completed": "2019-06-09T13:15:37.99",
-          "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/4226/messages/2"
-        },
-        {
           "status": "Approved",
-          "completed": "2019-06-09T13:15:48.567",
+          "completed": "2019-06-09T13:44:10.083",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/4226/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/4228/messages/2"
         }
       ]
     },
     "lastApprovedVersion": {
       "major": 1,
       "minor": 0,
-      "revision": 1
+      "revision": 0
     }
   },
   "external": true,
@@ -54,7 +47,7 @@
     "fields": [
       {
         "identity": {
-          "id": "7b27198d-6eb9-41f4-bf17-8abbb6e89c3a",
+          "id": "a0112977-025f-426e-851e-60da79677a08",
           "name": "F1",
           "description": ""
         },
