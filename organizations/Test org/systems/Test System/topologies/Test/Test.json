@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "id": "a069ddfa-c184-413b-8e72-c0bf694aef7b",
+    "name": "Test",
+    "description": "Test desc."
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "68e7bdbf-d8c1-4bfb-b6bc-86b59265412c",
+      "name": "/organizations/Test org/systems/Test System"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "topology",
+    "usage": "Resource",
+    "properties": [],
+    "history": {
+      "created": "2019-05-10T06:39:03.1",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-06-11T06:23:34.613",
+      "updatedBy": "mailfornik@gmail.com",
+      "completions": []
+    }
+  },
+  "instances": []
+}
