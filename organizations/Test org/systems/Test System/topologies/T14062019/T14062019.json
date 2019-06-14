@@ -1,0 +1,47 @@
+{
+  "identity": {
+    "id": "f35221a8-819e-44fd-b904-c1df0d19023f",
+    "name": "T14062019"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "68e7bdbf-d8c1-4bfb-b6bc-86b59265412c",
+      "name": "/organizations/Test org/systems/Test System"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "topology",
+    "usage": "Resource",
+    "properties": [],
+    "history": {
+      "created": "2019-06-14T06:29:13.63",
+      "createdBy": "mailfornik@gmail.com",
+      "updated": "2019-06-14T06:30:02.257",
+      "updatedBy": "mailfornik@gmail.com",
+      "completions": []
+    }
+  },
+  "instances": [
+    {
+      "identity": {
+        "id": "39db1a13-b29d-4b9a-a46c-29093644690e",
+        "name": "I0929",
+        "description": "Description I0929"
+      },
+      "units": "uuu"
+    },
+    {
+      "identity": {
+        "id": "b881bf49-5d1c-45e1-a1fc-67f70fab6de7",
+        "name": "I0930",
+        "description": ""
+      },
+      "units": "uuu"
+    }
+  ]
+}
