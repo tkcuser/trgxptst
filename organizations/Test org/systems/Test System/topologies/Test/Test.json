@@ -22,7 +22,7 @@
     "history": {
       "created": "2019-05-10T06:39:03.1",
       "createdBy": "orzhan057@gmail.com",
-      "updated": "2019-06-14T06:14:58.63",
+      "updated": "2019-06-14T06:18:52.283",
       "updatedBy": "mailfornik@gmail.com",
       "completions": []
     }
@@ -35,6 +35,14 @@
         "description": ""
       },
       "units": "uuu"
+    },
+    {
+      "identity": {
+        "id": "acbaf11b-ea94-44d3-8310-82d4d9dd4a88",
+        "name": "Another instance",
+        "description": ""
+      },
+      "units": "some unit"
     }
   ]
 }
