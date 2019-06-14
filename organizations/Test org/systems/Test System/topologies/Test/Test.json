@@ -22,10 +22,19 @@
     "history": {
       "created": "2019-05-10T06:39:03.1",
       "createdBy": "orzhan057@gmail.com",
-      "updated": "2019-06-13T21:55:55.497",
+      "updated": "2019-06-14T06:14:58.63",
       "updatedBy": "mailfornik@gmail.com",
       "completions": []
     }
   },
-  "instances": []
+  "instances": [
+    {
+      "identity": {
+        "id": "a7a5a58f-a68c-48e3-b9da-690414a6066d",
+        "name": "Somth",
+        "description": ""
+      },
+      "units": "uuu"
+    }
+  ]
 }
