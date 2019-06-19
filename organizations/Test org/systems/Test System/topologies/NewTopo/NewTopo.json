@@ -1,0 +1,39 @@
+{
+  "identity": {
+    "id": "d67a829c-8ae5-46bc-8b14-3c1c61755c6a",
+    "name": "NewTopo"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "68e7bdbf-d8c1-4bfb-b6bc-86b59265412c",
+      "name": "/organizations/Test org/systems/Test System"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "topology",
+    "usage": "Resource",
+    "properties": [],
+    "history": {
+      "created": "2019-06-19T12:58:34.943",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-06-19T12:59:02.197",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": []
+    }
+  },
+  "instances": [
+    {
+      "identity": {
+        "id": "121be5e6-01bd-45f0-a0fd-a106cc8b2fb5",
+        "name": "NewInst",
+        "description": "desc"
+      },
+      "units": "unit"
+    }
+  ]
+}
