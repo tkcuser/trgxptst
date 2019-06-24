@@ -21,7 +21,7 @@
     "history": {
       "created": "2019-05-17T12:28:15.11",
       "createdBy": "orzhan057@gmail.com",
-      "updated": "2019-05-28T05:51:12.477",
+      "updated": "2019-06-24T23:34:20.507",
       "updatedBy": "mailfornik@gmail.com",
       "completions": []
     }
@@ -33,6 +33,7 @@
         "name": "test instance",
         "description": ""
       },
+      "platform": "S3",
       "units": "utu"
     }
   ]
