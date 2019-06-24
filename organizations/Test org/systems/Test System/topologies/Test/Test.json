@@ -22,7 +22,7 @@
     "history": {
       "created": "2019-05-10T06:39:03.1",
       "createdBy": "orzhan057@gmail.com",
-      "updated": "2019-06-24T22:19:44.5",
+      "updated": "2019-06-24T22:22:01.957",
       "updatedBy": "mailfornik@gmail.com",
       "completions": []
     }
@@ -42,6 +42,7 @@
         "name": "Another instance",
         "description": ""
       },
+      "platform": "MySQL",
       "units": "some unit"
     }
   ]
