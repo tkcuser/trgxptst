@@ -21,7 +21,7 @@
     "history": {
       "created": "2019-06-19T12:58:34.943",
       "createdBy": "orzhan057@gmail.com",
-      "updated": "2019-06-26T08:27:16.407",
+      "updated": "2019-06-26T08:27:32.007",
       "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
@@ -41,7 +41,8 @@
         "id": "f30d2c80-87d0-42df-bfef-d71db07f40d0",
         "name": "2",
         "description": "2"
-      }
+      },
+      "platform": "SQLServer"
     }
   ]
 }
