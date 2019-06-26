@@ -21,7 +21,7 @@
     "history": {
       "created": "2019-06-19T12:58:34.943",
       "createdBy": "orzhan057@gmail.com",
-      "updated": "2019-06-26T08:27:32.007",
+      "updated": "2019-06-26T08:29:13.65",
       "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
@@ -42,7 +42,8 @@
         "name": "2",
         "description": "2"
       },
-      "platform": "SQLServer"
+      "platform": "SQLServer",
+      "units": "1"
     }
   ]
 }
