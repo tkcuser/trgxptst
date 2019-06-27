@@ -21,7 +21,7 @@
     "history": {
       "created": "2019-06-19T12:58:34.943",
       "createdBy": "orzhan057@gmail.com",
-      "updated": "2019-06-27T14:44:03.273",
+      "updated": "2019-06-27T14:45:23.067",
       "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
@@ -44,6 +44,13 @@
         "description": "z"
       },
       "order": 2
+    },
+    {
+      "identity": {
+        "id": "048e7e8b-b3e5-4db7-aa00-878c2af70762",
+        "name": "e"
+      },
+      "order": 3
     }
   ]
 }
