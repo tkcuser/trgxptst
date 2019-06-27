@@ -21,10 +21,21 @@
     "history": {
       "created": "2019-06-19T12:58:34.943",
       "createdBy": "orzhan057@gmail.com",
-      "updated": "2019-06-27T05:39:52.343",
-      "updatedBy": "mailfornik@gmail.com",
+      "updated": "2019-06-27T14:43:11.307",
+      "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
   },
-  "instances": []
+  "instances": [
+    {
+      "identity": {
+        "id": "1f29420a-4ff9-4638-a422-834c923601c3",
+        "name": "a",
+        "description": "b"
+      },
+      "order": 1,
+      "platform": "SQLServer",
+      "units": "2,3,4"
+    }
+  ]
 }
