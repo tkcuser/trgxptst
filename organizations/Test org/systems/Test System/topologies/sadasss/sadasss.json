@@ -21,20 +21,10 @@
     "history": {
       "created": "2019-05-17T12:28:15.11",
       "createdBy": "orzhan057@gmail.com",
-      "updated": "2019-06-24T23:34:20.507",
+      "updated": "2019-06-27T05:37:13.947",
       "updatedBy": "mailfornik@gmail.com",
       "completions": []
     }
   },
-  "instances": [
-    {
-      "identity": {
-        "id": "b32430dc-1dc8-430d-babb-8aa44d522adf",
-        "name": "test instance",
-        "description": ""
-      },
-      "platform": "S3",
-      "units": "utu"
-    }
-  ]
+  "instances": []
 }
