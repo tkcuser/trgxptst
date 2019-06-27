@@ -1,0 +1,41 @@
+{
+  "identity": {
+    "id": "735eff62-2378-403b-ac8c-9ef0dff5cd4e",
+    "name": "Topology 270606T0841"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "68e7bdbf-d8c1-4bfb-b6bc-86b59265412c",
+      "name": "/organizations/Test org/systems/Test System"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "topology",
+    "usage": "Resource",
+    "properties": [],
+    "history": {
+      "created": "2019-06-27T05:41:24.49",
+      "createdBy": "mailfornik@gmail.com",
+      "updated": "2019-06-27T05:41:43.837",
+      "updatedBy": "mailfornik@gmail.com",
+      "completions": []
+    }
+  },
+  "instances": [
+    {
+      "identity": {
+        "id": "e590a5b5-8710-422e-8147-01df2c509a86",
+        "name": "One instance",
+        "description": "vzasxdvdszacvs"
+      },
+      "order": 1,
+      "platform": "Git",
+      "units": "u1, u23"
+    }
+  ]
+}
