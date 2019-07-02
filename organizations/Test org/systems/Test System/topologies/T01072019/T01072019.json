@@ -21,28 +21,17 @@
     "history": {
       "created": "2019-07-02T05:21:17.883",
       "createdBy": "mailfornik@gmail.com",
-      "updated": "2019-07-02T05:22:17.127",
+      "updated": "2019-07-02T05:24:00.517",
       "updatedBy": "mailfornik@gmail.com",
-      "completions": []
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2019-07-02T05:24:00.46",
+          "completedBy": "mailfornik@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/topologies/T01072019/versions/1.0.0/issues/5683/messages/1"
+        }
+      ]
     }
   },
-  "instances": [
-    {
-      "identity": {
-        "id": "c9637fad-ae1b-4f32-be47-c9e01375ceb8",
-        "name": "Inst0821",
-        "description": "Descrhjljhjhkj bnhb bn,knbh,k ,lknbhjhbk bkjhbg hbjgv"
-      },
-      "order": 1,
-      "platform": "Git",
-      "type": "Defined",
-      "reference": {
-        "reference": "",
-        "subscription": "",
-        "instance": ""
-      },
-      "configuration": {},
-      "units": "u2"
-    }
-  ]
+  "instances": []
 }
