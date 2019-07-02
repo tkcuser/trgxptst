@@ -1,0 +1,48 @@
+{
+  "identity": {
+    "id": "726ae484-4fbe-4b97-a960-59add8abafd4",
+    "name": "T01072019"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "68e7bdbf-d8c1-4bfb-b6bc-86b59265412c",
+      "name": "/organizations/Test org/systems/Test System"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "topology",
+    "usage": "Resource",
+    "properties": [],
+    "history": {
+      "created": "2019-07-02T05:21:17.883",
+      "createdBy": "mailfornik@gmail.com",
+      "updated": "2019-07-02T05:22:17.127",
+      "updatedBy": "mailfornik@gmail.com",
+      "completions": []
+    }
+  },
+  "instances": [
+    {
+      "identity": {
+        "id": "c9637fad-ae1b-4f32-be47-c9e01375ceb8",
+        "name": "Inst0821",
+        "description": "Descrhjljhjhkj bnhb bn,knbh,k ,lknbhjhbk bkjhbg hbjgv"
+      },
+      "order": 1,
+      "platform": "Git",
+      "type": "Defined",
+      "reference": {
+        "reference": "",
+        "subscription": "",
+        "instance": ""
+      },
+      "configuration": {},
+      "units": "u2"
+    }
+  ]
+}
