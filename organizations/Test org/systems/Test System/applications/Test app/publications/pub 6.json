@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "id": "26997100-50a8-44d2-95fb-bc6a430663c4",
+    "name": "pub 6"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "Publication",
+    "access": "External",
+    "properties": [],
+    "elements": [],
+    "history": {
+      "created": "2017-03-14T09:42:01.61",
+      "createdBy": "metadb_admin",
+      "updated": "2019-07-02T05:40:07.13",
+      "updatedBy": "mailfornik@gmail.com",
+      "completions": [
+        {
+          "status": "Approved",
+          "completed": "2019-07-02T05:39:52.717",
+          "completedBy": "mailfornik@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/5684/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "termsOfService": "",
+  "licenseName": "",
+  "licenseUrl": "",
+  "servers": [],
+  "datasets": [
+    {
+      "identity": {
+        "id": "1b013092-ad7d-461a-b367-aa5a49847e5a",
+        "name": "IssueTask",
+        "description": "Task for issue to complete. Issue can have multiple task which need to be completed befor issue closed."
+      },
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "revision": 0
+      },
+      "fieldNames": []
+    },
+    {
+      "identity": {
+        "id": "0fc914c4-0bfe-4306-bc1f-470ab884c3d1",
+        "name": "dataset 6"
+      },
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "revision": 0
+      },
+      "fieldNames": []
+    }
+  ],
+  "interfaces": [],
+  "layouts": []
+}
