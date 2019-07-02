@@ -1,0 +1,37 @@
+{
+  "identity": {
+    "id": "d43bbf55-2eb0-483a-9b20-85aa4ebff9f3",
+    "name": "q"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "68e7bdbf-d8c1-4bfb-b6bc-86b59265412c",
+      "name": "/organizations/Test org/systems/Test System"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "topology",
+    "usage": "Resource",
+    "properties": [],
+    "history": {
+      "created": "2019-05-10T06:10:48.027",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-07-02T05:43:51.963",
+      "updatedBy": "mailfornik@gmail.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2019-07-02T05:43:51.92",
+          "completedBy": "mailfornik@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/topologies/q/versions/1.0.0/issues/5687/messages/1"
+        }
+      ]
+    }
+  },
+  "instances": []
+}
