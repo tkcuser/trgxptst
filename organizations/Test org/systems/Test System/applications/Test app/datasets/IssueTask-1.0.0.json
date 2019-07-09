@@ -1,0 +1,163 @@
+{
+  "identity": {
+    "id": "1b013092-ad7d-461a-b367-aa5a49847e5a",
+    "name": "IssueTask",
+    "description": "Task for issue to complete. Issue can have multiple task which need to be completed befor issue closed."
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "picture": "",
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Fact",
+    "properties": [
+      {
+        "identity": {
+          "name": "x"
+        },
+        "type": "String",
+        "value": "-1"
+      },
+      {
+        "identity": {
+          "name": "y"
+        },
+        "type": "String",
+        "value": "138"
+      },
+      {
+        "identity": {
+          "name": "color"
+        },
+        "type": "String",
+        "value": "#b04a71"
+      },
+      {
+        "identity": {
+          "name": "links"
+        },
+        "type": "String",
+        "value": ""
+      },
+      {
+        "identity": {
+          "name": "links_onetomany"
+        },
+        "type": "String",
+        "value": ""
+      }
+    ],
+    "elements": [{"identity":{"name":"default"},"links":[],"frame":{"position":{"left":-1,"top":273,"width":225,"height":186}},"style":{"border":{"left":{"color":"#b04a71"}}}}],
+    "history": {
+      "created": "2017-02-23T14:20:29.22",
+      "createdBy": "mailfornik@gmail.com",
+      "updated": "2019-07-09T15:33:51.493",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2017-12-05T10:13:52.17",
+          "completedBy": "mailfornik@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2401/messages/3"
+        },
+        {
+          "status": "Approved",
+          "completed": "2019-07-09T15:33:51.34",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/2401/messages/3"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "d3657e87-7286-4186-9b2b-9ea5c4499d37",
+          "name": "Task",
+          "description": "Task identity and description. Task name generated as issue order number. Task description contanis specification of the task."
+        },
+        "order": 1,
+        "usage": "Identity",
+        "type": "Structure",
+        "reference": "/organizations/Test org/datasets/Identity",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "4fee69d7-ad50-480b-9ce9-fab17d28b50e",
+          "name": "Check",
+          "description": "Check mark for done tasks."
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "Boolean",
+        "optional": false,
+        "value": "false",
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "927d5be0-3b1f-4e8f-a952-190e7a1097a9",
+          "name": "qqqq"
+        },
+        "order": 3,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "d4650d6c-d841-4a6b-9b84-22de308a0dcd",
+          "name": "zzzz"
+        },
+        "order": 3,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "ac59148a-d817-4fc9-b3ac-920cd9ad5ae4",
+          "name": "eee"
+        },
+        "order": 3,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}
