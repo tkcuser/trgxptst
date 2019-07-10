@@ -21,7 +21,7 @@
     "history": {
       "created": "2019-06-19T12:58:34.943",
       "createdBy": "orzhan057@gmail.com",
-      "updated": "2019-07-10T15:10:04.067",
+      "updated": "2019-07-10T15:10:30.66",
       "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
@@ -77,6 +77,18 @@
       "type": "Defined",
       "configuration": {},
       "units": "sa"
+    },
+    {
+      "identity": {
+        "id": "04f11692-39d7-4da9-941a-20900b6e885f",
+        "name": "sadas",
+        "description": "adas"
+      },
+      "order": 7,
+      "platform": "Git",
+      "type": "Defined",
+      "configuration": {},
+      "units": "v"
     }
   ]
 }
