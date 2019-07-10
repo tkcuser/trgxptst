@@ -1,0 +1,92 @@
+{
+  "identity": {
+    "id": "4be51bcc-1716-4fdc-ad1a-8e088a819b2b",
+    "name": "Adas asdasd JKSAsassdsa asdas32a"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Transform",
+    "access": "External",
+    "properties": [],
+    "history": {
+      "created": "2019-06-03T07:41:13.243",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-07-10T14:04:40.03",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2019-07-10T14:01:32.747",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/6125/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2019-07-10T14:04:39.867",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/6125/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "external": true,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "2c8bdf41-e29f-49b0-95bf-d6fecb853ee3",
+          "name": "sdas",
+          "description": "adas"
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low",
+        "rules": [
+          {
+            "identity": {
+              "name": "sadas"
+            },
+            "type": "Limit",
+            "expression": "sadasa"
+          },
+          {
+            "identity": {
+              "name": "sada2"
+            },
+            "type": "Pattern",
+            "expression": "ssa"
+          }
+        ]
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [],
+    "examples": []
+  }
+}
