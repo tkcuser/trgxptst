@@ -1,0 +1,456 @@
+{
+  "identity": {
+    "id": "1f15b0a3-b156-4596-bf1d-98e48e7a9ae8",
+    "name": "Usage",
+    "description": "Enumerator of usages supported by service. Usage define how object used in DifHub service."
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "DataSet",
+    "usage": "Enum",
+    "access": "External",
+    "properties": [
+      {
+        "identity": {
+          "name": "x"
+        },
+        "type": "String",
+        "value": "17"
+      },
+      {
+        "identity": {
+          "name": "y"
+        },
+        "type": "String",
+        "value": "87"
+      },
+      {
+        "identity": {
+          "name": "color"
+        },
+        "type": "String",
+        "value": "#00ff40"
+      },
+      {
+        "identity": {
+          "name": "links"
+        },
+        "type": "String",
+        "value": ""
+      },
+      {
+        "identity": {
+          "name": "links_onetomany"
+        },
+        "type": "String",
+        "value": ""
+      }
+    ],
+    "elements": [{"identity":{"name":"aa"},"frame":{"position":{"left":926,"top":411,"width":0,"height":0}},"style":{"border":{"left":{"color":"#00ff40"}}}},{"identity":{"name":"view2"},"frame":{"position":{"left":521,"top":127,"width":0,"height":0}},"style":{"border":{"left":{"color":"#00ff40"}}}},{"identity":{"name":"ii99"},"frame":{"position":{"left":25,"top":36,"width":0,"height":0}},"style":{"border":{"left":{"color":"#00ff40"}}}},{"identity":{"name":"sasaa"},"frame":{"position":{"left":500,"top":0,"width":0,"height":0}},"style":{"border":{"left":{"color":"#00ff40"}}}},{"identity":{"name":"ytyt tata 66"},"frame":{"position":{"left":343,"top":209,"width":0,"height":0}},"style":{"border":{"left":{"color":"#00ff40"}}}},{"identity":{"name":"default"},"links":[{"type":"One-To-One","element":{"name":"Platform"}},{"type":"One-To-One","element":{"name":"Platform"}}],"frame":{"position":{"left":-1,"top":404,"width":148,"height":314}},"style":{"border":{"left":{"color":"#00ff40"}}}}],
+    "history": {
+      "created": "2017-03-30T13:56:58.997",
+      "createdBy": "metadb_admin",
+      "updated": "2019-07-10T14:14:06.7",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2019-07-10T14:13:47.153",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/6129/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2019-07-10T14:14:06.557",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/6129/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "external": false,
+  "structure": {
+    "fields": [
+      {
+        "identity": {
+          "id": "584dcbc4-8d9d-4f08-9919-caddc54c8c51",
+          "name": "Usage",
+          "description": "Usage identificator."
+        },
+        "order": 1,
+        "usage": "Name",
+        "type": "String",
+        "optional": false,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "529444bc-60e7-4bb9-bf38-204df02f0d2d",
+          "name": "Description",
+          "description": "Description of specific usage."
+        },
+        "order": 2,
+        "usage": "Description",
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "92c2f183-16a5-4d61-83f3-5ca6ffeb1f7f",
+          "name": "Settings",
+          "description": "List of attributes or reference to structure. List used for field to define required attributes. Structure will  be presented in advance settings for specific usage."
+        },
+        "order": 3,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "4622c87d-8ae8-4169-b5fd-8cc98caa3f1e",
+          "name": "Object",
+          "description": "Object type usage applicable to. Type of the objects supported in usage represented in Class enumerator"
+        },
+        "order": 4,
+        "usage": "Property",
+        "count": 1,
+        "type": "Enum",
+        "reference": "/organizations/Test org/systems/Test System/applications/Test app/datasets/Class",
+        "optional": true,
+        "privacy": "low"
+      },
+      {
+        "identity": {
+          "id": "0d9b7c31-f05d-4585-88f9-f2136ec41dbb",
+          "name": "sadas",
+          "description": ""
+        },
+        "order": 5,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
+    "keys": []
+  },
+  "layouts": [],
+  "data": {
+    "records": [
+      {
+        "index": 1,
+        "values": [
+          "Generic",
+          "Generic system can contain any types of applications.",
+          "",
+          "System",
+          null
+        ]
+      },
+      {
+        "index": 2,
+        "values": [
+          "Database",
+          "Database system represent relational or multidimensional database and can contain any applications of type schema, dimension or cube.",
+          "",
+          "System",
+          null
+        ]
+      },
+      {
+        "index": 3,
+        "values": [
+          "Service",
+          "Generic service without any limitation on objects inside.",
+          "",
+          "Application",
+          null
+        ]
+      },
+      {
+        "index": 4,
+        "values": [
+          "Schema",
+          "Relational schema, contains tables as datasets.",
+          "",
+          "Application",
+          null
+        ]
+      },
+      {
+        "index": 5,
+        "values": [
+          "Dimension",
+          "Dimension for relational datawarehouse or multidimensional cube. Dimension contain tables, attributes and hierarchies as datasets.",
+          "",
+          "Application",
+          null
+        ]
+      },
+      {
+        "index": 6,
+        "values": [
+          "Cube",
+          "Multidimensional cube, contains facts as datasets.",
+          "",
+          "Application",
+          null
+        ]
+      },
+      {
+        "index": 7,
+        "values": [
+          "Preferences",
+          "User preferences. Maintain and defines set of user preferences as datasets.",
+          "",
+          "Application",
+          null
+        ]
+      },
+      {
+        "index": 8,
+        "values": [
+          "Table",
+          "Simple flat column list of relational table. Table can contain only fields of usage column.",
+          "",
+          "Dataset",
+          null
+        ]
+      },
+      {
+        "index": 9,
+        "values": [
+          "Event",
+          "Complex structure for event. Event contains list of simple fields and/or other complex structures.",
+          "",
+          "Dataset",
+          null
+        ]
+      },
+      {
+        "index": 10,
+        "values": [
+          "Resource",
+          "Complex structure for REST API resource. Resource simolar to event and contains list of simple fields and/or other complex structures.",
+          "",
+          "Dataset",
+          null
+        ]
+      },
+      {
+        "index": 11,
+        "values": [
+          "Enum",
+          "Dataset as enumerator of values. Enumerators represented as simple flat list of fields. Field of usage name is requierd.",
+          "",
+          "Dataset",
+          null
+        ]
+      },
+      {
+        "index": 12,
+        "values": [
+          "Attribute",
+          "Attribute contains set of fields required for level of multidimentional hierarchy (key, name, description, properties and translations). Attribute can have one key or multiple key.",
+          "",
+          "Dataset",
+          null
+        ]
+      },
+      {
+        "index": 13,
+        "values": [
+          "Fact",
+          "Fact of cube, containing keys with reference to attributes and measures. It can contain one or many keys and one or many measures.",
+          "",
+          "Dataset",
+          null
+        ]
+      },
+      {
+        "index": 14,
+        "values": [
+          "Settings",
+          "Set of properties for preferences or any other property sets.",
+          "",
+          "Dataset",
+          null
+        ]
+      },
+      {
+        "index": 15,
+        "values": [
+          "Instance",
+          "Instance of topology. Instance of specific platform to execute applications.",
+          "",
+          "Dataset",
+          null
+        ]
+      },
+      {
+        "index": 16,
+        "values": [
+          "Location",
+          "Location specification for dataset layout on specific platform.",
+          "",
+          "Dataset",
+          null
+        ]
+      },
+      {
+        "index": 17,
+        "values": [
+          "Format",
+          "Format for data in dataset in layout suporting different data formats.",
+          "",
+          "Dataset",
+          null
+        ]
+      },
+      {
+        "index": 18,
+        "values": [
+          "Schedule",
+          "Schedule for data updates of dataset. Schedule present time sequence for data updates and as result punctuation for the data.",
+          "",
+          "Dataset",
+          null
+        ]
+      },
+      {
+        "index": 19,
+        "values": [
+          "Policy",
+          "Policy for availability of data in dataset. Policy specify rules and requiroments for data in dataset.",
+          "",
+          "Dataset",
+          null
+        ]
+      },
+      {
+        "index": 20,
+        "values": [
+          "Column",
+          "Column of relational table.",
+          "Count, Optional, Value, Format",
+          "Field",
+          null
+        ]
+      },
+      {
+        "index": 21,
+        "values": [
+          "Property",
+          "Property of event or attribute.",
+          "Count, Optional, Value, Format",
+          "Field",
+          null
+        ]
+      },
+      {
+        "index": 22,
+        "values": [
+          "Identity",
+          "Identity of event or attribute.",
+          "Type=Structure, Reference=/Identity, Keys=false, Optional=false",
+          "Field",
+          null
+        ]
+      },
+      {
+        "index": 23,
+        "values": [
+          "Key",
+          "key for attribute.",
+          "Count, Optional=false, Format",
+          "Field",
+          null
+        ]
+      },
+      {
+        "index": 24,
+        "values": [
+          "Name",
+          "Name of enum or attribute.",
+          "Type=String, Optional",
+          "Field",
+          null
+        ]
+      },
+      {
+        "index": 25,
+        "values": [
+          "Description",
+          "Description of enum or attribute.",
+          "Type=String, Optional",
+          "Field",
+          null
+        ]
+      },
+      {
+        "index": 26,
+        "values": [
+          "Value",
+          "Attribute value.",
+          "Count, Optional, Value, Format",
+          "Field",
+          null
+        ]
+      },
+      {
+        "index": 27,
+        "values": [
+          "Translation",
+          "Translation for name of enum or attribute.",
+          "Type=String, Optional",
+          "Field",
+          null
+        ]
+      },
+      {
+        "index": 28,
+        "values": [
+          "Measure",
+          "Aggregatable value. Used in multidimensional facts.",
+          "Count, Optional, Value, Format, Aggregate",
+          "Field",
+          null
+        ]
+      },
+      {
+        "index": 29,
+        "values": [
+          "Internal",
+          "Internal usage for list of field attributes.",
+          "Order, Usage, Type, Access, Privacy, Rules, Properties",
+          "Field",
+          null
+        ]
+      }
+    ],
+    "examples": []
+  }
+}
