@@ -21,7 +21,7 @@
     "history": {
       "created": "2019-06-19T12:58:34.943",
       "createdBy": "orzhan057@gmail.com",
-      "updated": "2019-07-10T15:10:30.66",
+      "updated": "2019-07-10T15:13:39.66",
       "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
@@ -89,6 +89,18 @@
       "type": "Defined",
       "configuration": {},
       "units": "v"
+    },
+    {
+      "identity": {
+        "id": "e2490327-3252-45d2-a770-281d2c96ca58",
+        "name": "f333333",
+        "description": "s"
+      },
+      "order": 8,
+      "platform": "Git",
+      "type": "Defined",
+      "configuration": {},
+      "units": "dssad"
     }
   ]
 }
