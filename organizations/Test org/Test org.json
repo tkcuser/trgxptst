@@ -44,6 +44,7 @@
         "identity": {
           "name": "test.png"
         },
+        "type": "Text",
         "uri": "/organizations/Test org/test.png"
       }
     ],
@@ -51,9 +52,9 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2019-07-15T11:59:01.067",
+      "created": "2019-07-15T12:14:19.91",
       "createdBy": "mailfornik@gmail.com",
-      "updated": "2019-07-15T11:59:01.067",
+      "updated": "2019-07-15T12:14:19.91",
       "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
