@@ -39,15 +39,22 @@
         "name": "test tag"
       }
     ],
-    "documents": [],
+    "documents": [
+      {
+        "identity": {
+          "name": "test.png"
+        },
+        "uri": "/organizations/Test org/test.png"
+      }
+    ],
     "type": "Org",
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2019-06-07T07:44:18.77",
+      "created": "2019-07-15T11:59:01.067",
       "createdBy": "mailfornik@gmail.com",
-      "updated": "2019-06-07T07:44:18.77",
-      "updatedBy": "unknown",
+      "updated": "2019-07-15T11:59:01.067",
+      "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
   },
