@@ -27,16 +27,29 @@
         "name": "t3"
       }
     ],
-    "documents": [],
+    "documents": [
+      {
+        "identity": {
+          "name": "arrow-down.png"
+        },
+        "uri": "/organizations/Test org/systems/Test System/arrow-down.png"
+      },
+      {
+        "identity": {
+          "name": "test.png"
+        },
+        "uri": "/organizations/Test org/systems/Test System/test.png"
+      }
+    ],
     "type": "System",
     "usage": "Generic",
     "access": "External",
     "properties": [],
     "elements": [],
     "history": {
-      "created": "2019-07-16T12:24:27.167",
+      "created": "2019-07-16T12:28:57.007",
       "createdBy": "unknown",
-      "updated": "2019-07-16T12:24:27.167",
+      "updated": "2019-07-16T12:28:57.007",
       "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
