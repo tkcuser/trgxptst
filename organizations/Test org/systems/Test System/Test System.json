@@ -32,12 +32,14 @@
         "identity": {
           "name": "arrow-down.png"
         },
+        "type": "Picture",
         "uri": "/organizations/Test org/systems/Test System/arrow-down.png"
       },
       {
         "identity": {
           "name": "test.png"
         },
+        "type": "Text",
         "uri": "/organizations/Test org/systems/Test System/test.png"
       }
     ],
@@ -47,9 +49,9 @@
     "properties": [],
     "elements": [],
     "history": {
-      "created": "2019-07-16T12:28:57.007",
+      "created": "2019-07-16T12:29:14.36",
       "createdBy": "unknown",
-      "updated": "2019-07-16T12:28:57.007",
+      "updated": "2019-07-16T12:29:14.36",
       "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
