@@ -42,6 +42,13 @@
     "documents": [
       {
         "identity": {
+          "name": "arrow-down.png"
+        },
+        "type": "Picture",
+        "uri": "/organizations/Test org/arrow-down.png"
+      },
+      {
+        "identity": {
           "name": "test.png"
         },
         "type": "Picture",
@@ -52,9 +59,9 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2019-07-16T12:06:11.887",
+      "created": "2019-07-16T12:18:48.51",
       "createdBy": "mailfornik@gmail.com",
-      "updated": "2019-07-16T12:06:11.887",
+      "updated": "2019-07-16T12:18:48.51",
       "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
