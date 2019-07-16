@@ -30,13 +30,16 @@
     "documents": [],
     "type": "System",
     "usage": "Generic",
+    "access": "External",
     "properties": [],
+    "elements": [],
     "history": {
-      "created": "2016-10-24T01:04:01.09",
+      "created": "2019-07-16T12:24:27.167",
       "createdBy": "unknown",
-      "updated": "2016-10-24T01:04:01.09",
-      "updatedBy": "unknown",
+      "updated": "2019-07-16T12:24:27.167",
+      "updatedBy": "orzhan057@gmail.com",
       "completions": []
     }
-  }
+  },
+  "locale": ""
 }
