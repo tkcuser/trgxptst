@@ -1,0 +1,50 @@
+{
+  "identity": {
+    "id": "16873ed0-eb91-4791-bb4d-5a64b9e8b1c5",
+    "name": "aaa22"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Pipeline",
+    "usage": "Work Flow",
+    "access": "External",
+    "properties": [],
+    "history": {
+      "created": "2019-06-10T08:07:30.843",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-07-19T11:09:40.87",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2019-07-19T11:09:02.7",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/6486/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2019-07-19T11:09:40.71",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/6486/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "activities": [],
+  "layouts": []
+}
