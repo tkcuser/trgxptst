@@ -1,6 +1,6 @@
 {
   "identity": {
-    "id": "fa73d2fc-ac9a-4e9d-8b3c-cfaf3f496f75",
+    "id": "505242fc-d3bf-4705-8d27-cb6ad5f6f4f7",
     "name": "D1",
     "description": "DD"
   },
@@ -11,7 +11,7 @@
   },
   "object": {
     "parent": {
-      "id": "df7775db-2fa9-4c02-907c-4179bb7e4ee6",
+      "id": "9d8d3d19-de1e-41de-8e76-db4e5d2bf8c8",
       "name": "/organizations/Test org/systems/TS/applications/A1"
     },
     "tags": [],
@@ -20,22 +20,22 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2019-07-22T16:36:04.403",
+      "created": "2019-07-22T17:36:01.33",
       "createdBy": "developer.apdax@mail.ru",
-      "updated": "2019-07-22T16:43:12.403",
+      "updated": "2019-07-22T17:43:51.533",
       "updatedBy": "developer.apdax@mail.ru",
       "completions": [
         {
           "status": "Finalized",
-          "completed": "2019-07-22T16:42:59.78",
+          "completed": "2019-07-22T17:43:39.797",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/6573/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/6575/messages/2"
         },
         {
           "status": "Approved",
-          "completed": "2019-07-22T16:43:12.253",
+          "completed": "2019-07-22T17:43:51.373",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/6573/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/6575/messages/2"
         }
       ]
     },
@@ -47,7 +47,25 @@
   },
   "external": true,
   "structure": {
-    "fields": [],
+    "fields": [
+      {
+        "identity": {
+          "id": "c48b1c65-ecf4-4780-8029-dce885c91afd",
+          "name": "F1",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
     "keys": []
   },
   "layouts": [],
