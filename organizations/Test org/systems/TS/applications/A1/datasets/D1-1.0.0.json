@@ -1,6 +1,6 @@
 {
   "identity": {
-    "id": "3f582b10-77c6-4a79-b0d7-d8f3ab8ed45c",
+    "id": "a6ba2325-093f-41dc-93df-0cab3c1f5dc3",
     "name": "D1",
     "description": "DD"
   },
@@ -11,7 +11,7 @@
   },
   "object": {
     "parent": {
-      "id": "36285ee2-8a36-456e-bcd4-da4d753dae48",
+      "id": "1beba4e0-014f-4247-b053-3cd67630ac7d",
       "name": "/organizations/Test org/systems/TS/applications/A1"
     },
     "tags": [],
@@ -20,22 +20,22 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2019-07-24T05:35:53.317",
+      "created": "2019-07-24T06:35:56.77",
       "createdBy": "developer.apdax@mail.ru",
-      "updated": "2019-07-24T05:43:54.43",
+      "updated": "2019-07-24T06:43:15.627",
       "updatedBy": "developer.apdax@mail.ru",
       "completions": [
         {
           "status": "Finalized",
-          "completed": "2019-07-24T05:43:42.633",
+          "completed": "2019-07-24T06:43:03.133",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/6642/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/6644/messages/2"
         },
         {
           "status": "Approved",
-          "completed": "2019-07-24T05:43:54.267",
+          "completed": "2019-07-24T06:43:15.483",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/6642/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/6644/messages/2"
         }
       ]
     },
@@ -47,25 +47,7 @@
   },
   "external": true,
   "structure": {
-    "fields": [
-      {
-        "identity": {
-          "id": "6c62b817-57de-4bf3-adb9-5e113a69a9d4",
-          "name": "F1",
-          "description": ""
-        },
-        "order": 1,
-        "usage": "Property",
-        "count": 1,
-        "type": "String",
-        "size": 0,
-        "optional": true,
-        "value": "",
-        "format": "",
-        "access": 255,
-        "privacy": "low"
-      }
-    ],
+    "fields": [],
     "keys": []
   },
   "layouts": [],
