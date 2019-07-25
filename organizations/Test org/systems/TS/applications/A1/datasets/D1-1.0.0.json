@@ -1,7 +1,8 @@
 {
   "identity": {
-    "id": "fbe6352b-1050-4279-93e8-8cac5ea20fa8",
-    "name": "D1"
+    "id": "cf73b28a-d808-4e24-9b94-e8665df6213a",
+    "name": "D1",
+    "description": "DD"
   },
   "version": {
     "major": 1,
@@ -10,7 +11,7 @@
   },
   "object": {
     "parent": {
-      "id": "9ad651a6-1307-4e02-bf6a-49381c8d332e",
+      "id": "7672d1ae-84a4-4fb5-999d-4365ec6e204f",
       "name": "/organizations/Test org/systems/TS/applications/A1"
     },
     "tags": [],
@@ -19,22 +20,22 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2019-07-25T18:08:25.64",
-      "createdBy": "orzhan057@gmail.com",
-      "updated": "2019-07-25T18:10:31.373",
+      "created": "2019-07-25T18:41:44.553",
+      "createdBy": "developer.apdax@mail.ru",
+      "updated": "2019-07-25T18:49:41.787",
       "updatedBy": "developer.apdax@mail.ru",
       "completions": [
         {
           "status": "Finalized",
-          "completed": "2019-07-25T18:10:19.357",
+          "completed": "2019-07-25T18:49:29.603",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/6705/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/6707/messages/2"
         },
         {
           "status": "Approved",
-          "completed": "2019-07-25T18:10:31.22",
+          "completed": "2019-07-25T18:49:41.64",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/6705/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/6707/messages/2"
         }
       ]
     },
@@ -46,7 +47,25 @@
   },
   "external": true,
   "structure": {
-    "fields": [],
+    "fields": [
+      {
+        "identity": {
+          "id": "4f55496e-e5b5-4266-b13e-acc36d54b540",
+          "name": "F1",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    ],
     "keys": []
   },
   "layouts": [],
