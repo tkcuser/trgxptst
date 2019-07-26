@@ -1,0 +1,258 @@
+{
+  "identity": {
+    "id": "ce169cdb-ee92-4ce0-9ff7-8937e8fb6d83",
+    "name": "CreateUser"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Pipeline",
+    "usage": "Work Flow",
+    "access": "External",
+    "properties": [],
+    "history": {
+      "created": "2019-06-07T16:20:00.34",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-07-26T06:12:44.957",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2019-07-26T06:12:26.153",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/6710/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2019-07-26T06:12:44.753",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/6710/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "activities": [
+    {
+      "identity": {
+        "name": "User"
+      },
+      "order": 1,
+      "type": "Operation",
+      "inputs": [
+        {
+          "identity": {
+            "name": "User"
+          },
+          "inputMode": "Dataset",
+          "component": {
+            "reference": "/organizations/Test org/systems/Test System/applications/Test app/datasets/Identity/versions/1.0.2",
+            "subscription": "",
+            "components": [
+              "Id",
+              "Name",
+              "Description",
+              "Translations"
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "identity": {
+            "name": "User"
+          },
+          "outputMode": "Response",
+          "component": {
+            "reference": "User"
+          }
+        }
+      ],
+      "operation": {
+        "reference": "/organizations/Test org/systems/Test System/applications/Test app/interfaces/User/versions/1.0.0",
+        "subscription": "",
+        "components": [
+          "CreateUser"
+        ]
+      }
+    },
+    {
+      "identity": {
+        "name": "UserGroup"
+      },
+      "order": 2,
+      "type": "Operation",
+      "inputs": [
+        {
+          "identity": {
+            "name": "User"
+          },
+          "inputMode": "Operation",
+          "component": {
+            "reference": "User",
+            "components": [
+              "CreateUser"
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "identity": {
+            "name": "Group"
+          },
+          "outputMode": "Response",
+          "component": {
+            "reference": "Group"
+          }
+        }
+      ],
+      "operation": {
+        "reference": "/organizations/Test org/systems/Test System/applications/Test app/interfaces/UserGroup/versions/1.0.0",
+        "subscription": "",
+        "components": [
+          "CreateGroup"
+        ]
+      }
+    },
+    {
+      "identity": {
+        "name": "UserProfile"
+      },
+      "order": 3,
+      "type": "Operation",
+      "inputs": [
+        {
+          "identity": {
+            "name": "User"
+          },
+          "inputMode": "Operation",
+          "component": {
+            "reference": "User",
+            "components": [
+              "CreateUser"
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "identity": {
+            "name": "Profile"
+          },
+          "outputMode": "Response",
+          "component": {
+            "reference": "Profile"
+          }
+        }
+      ],
+      "operation": {
+        "reference": "/organizations/Test org/systems/Test System/applications/Test app/interfaces/UserProfile/versions/1.0.0",
+        "subscription": "",
+        "components": [
+          "CreateProfile"
+        ]
+      }
+    },
+    {
+      "identity": {
+        "name": "Parameter"
+      },
+      "order": 4,
+      "type": "Operation",
+      "inputs": [
+        {
+          "identity": {
+            "name": "UserProfie"
+          },
+          "inputMode": "Operation",
+          "component": {
+            "reference": "UserProfile",
+            "components": [
+              "CreateProfile"
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "identity": {
+            "name": "Parameter"
+          },
+          "outputMode": "Response",
+          "component": {
+            "reference": "Parameter"
+          }
+        }
+      ],
+      "operation": {
+        "reference": "/organizations/Test org/systems/Test System/applications/Test app/interfaces/UserProfileParameter/versions/1.0.0",
+        "subscription": "",
+        "components": [
+          "CreateParameter"
+        ]
+      }
+    },
+    {
+      "identity": {
+        "name": "Asa222"
+      },
+      "order": 5,
+      "inputs": [
+        {
+          "identity": {
+            "name": "fsd"
+          },
+          "inputMode": "Dataset",
+          "component": {
+            "reference": "/organizations/Test org/systems/Test System/applications/Test app/datasets/Contact/versions/1.0.0",
+            "subscription": "",
+            "components": [
+              "EMail",
+              "URL"
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "identity": {
+            "name": "wqew"
+          },
+          "outputMode": "Dataset",
+          "component": {
+            "reference": "/organizations/Test org/systems/Test System/applications/Test app/datasets/Country/versions/1.0.0",
+            "subscription": "",
+            "components": [
+              "Code2"
+            ]
+          },
+          "map": [
+            {
+              "output": "Code2",
+              "inputs": [
+                "fsd/EMail",
+                "fsd/URL"
+              ],
+              "formula": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts": []
+}
