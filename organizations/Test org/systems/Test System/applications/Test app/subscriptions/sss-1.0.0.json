@@ -1,0 +1,80 @@
+{
+  "identity": {
+    "id": "4976e88e-a417-4a51-a18e-5106b97de1ea",
+    "name": "sss"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Subscription",
+    "properties": [],
+    "history": {
+      "created": "2018-08-08T19:39:06.087",
+      "createdBy": "mailfornik@gmail.com",
+      "updated": "2019-07-26T06:56:09.193",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": [
+        {
+          "status": "Approved",
+          "completed": "2019-07-26T06:55:49.553",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/6716/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "publication": {
+    "identity": {
+      "id": "d9ee6a5a-8b18-4818-ae89-0f9780524d36",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app/publications/TP"
+    },
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "datasets": [
+    {
+      "identity": {
+        "id": "ad3436aa-8261-4a2d-b90d-1b3bc441dcfd",
+        "name": "Application",
+        "description": "Application of a system."
+      },
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "revision": 0
+      },
+      "fieldNames": []
+    },
+    {
+      "identity": {
+        "id": "ed459491-9b54-428f-9cd5-2f799fa1ecee",
+        "name": "Object",
+        "description": "Updatable object. This object can be accessed by API and referenced."
+      },
+      "version": {
+        "major": 1,
+        "minor": 0,
+        "revision": 0
+      },
+      "fieldNames": []
+    }
+  ],
+  "interfaces": []
+}
