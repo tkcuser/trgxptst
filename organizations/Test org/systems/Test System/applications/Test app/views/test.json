@@ -6,7 +6,7 @@
   "version": {
     "major": 1,
     "minor": 0,
-    "revision": 1
+    "revision": 0
   },
   "object": {
     "parent": {
@@ -18,30 +18,29 @@
     "type": "view",
     "properties": [],
     "history": {
-      "created": "2018-10-23T10:17:40.517",
+      "created": "2018-01-09T14:48:35.463",
       "createdBy": "orzhan057@gmail.com",
-      "updated": "2018-10-23T10:24:25.51",
+      "updated": "2019-07-26T06:52:58.047",
       "updatedBy": "orzhan057@gmail.com",
-      "mirrored": "2018-10-23T10:17:41.28",
       "completions": [
         {
           "status": "Finalized",
-          "completed": "2018-10-23T10:23:39.75",
+          "completed": "2019-07-26T06:52:45.85",
           "completedBy": "orzhan057@gmail.com",
-          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/views/test/issues/3428/messages/3"
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/6714/messages/2"
         },
         {
           "status": "Approved",
-          "completed": "2018-10-23T10:24:25.437",
+          "completed": "2019-07-26T06:52:57.87",
           "completedBy": "orzhan057@gmail.com",
-          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/views/test/issues/3428/messages/3"
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/6714/messages/2"
         }
       ]
     },
     "lastApprovedVersion": {
       "major": 1,
       "minor": 0,
-      "revision": 1
+      "revision": 0
     }
   },
   "definitions": [
@@ -50,18 +49,21 @@
       "elements": [
         {
           "identity": {
-            "id": "fdde0590-c87a-4be5-9169-3ad5008da913",
-            "name": "q"
+            "id": "86b97584-4a87-46dc-bbee-e92187fec8ef",
+            "name": "q",
+            "description": "w"
           },
-          "order": 1,
-          "parent": {}
+          "order": 334,
+          "parent": {},
+          "text": "rewq"
         },
         {
           "identity": {
             "id": "6d86bc02-ccd6-4665-87d0-1422a712a710",
             "name": "v1",
-            "description": ""
+            "description": "sadas"
           },
+          "order": 333,
           "parent": {
             "name": ""
           },
@@ -105,74 +107,17 @@
           },
           "style": {
             "border": {},
-            "background": {},
-            "font": {}
-          },
-          "image": "",
-          "text": "",
-          "align": "",
-          "links": []
-        }
-      ]
-    },
-    {
-      "locale": "en-us",
-      "elements": [
-        {
-          "identity": {
-            "id": "6d86bc02-ccd6-4665-87d0-1422a712a710",
-            "name": "v1",
-            "description": ""
-          },
-          "parent": {
-            "name": ""
-          },
-          "frame": {
-            "position": {
-              "left": 0,
-              "right": 0,
-              "top": 0,
-              "bottom": 0,
-              "width": 0,
-              "height": 0
+            "background": {
+              "color": "#56549c"
             },
-            "margin": {
-              "left": 0,
-              "right": 0,
-              "top": 0,
-              "bottom": 0,
-              "width": 0
-            },
-            "border": {
-              "left": 0,
-              "right": 0,
-              "top": 0,
-              "bottom": 0,
-              "width": 0
-            },
-            "padding": {
-              "left": 0,
-              "right": 0,
-              "top": 0,
-              "bottom": 0,
-              "width": 0
-            },
-            "content": {
-              "left": 0,
-              "right": 0,
-              "top": 0,
-              "bottom": 0,
-              "width": 0
+            "font": {
+              "name": "Modern",
+              "color": "#ff9797"
             }
           },
-          "style": {
-            "border": {},
-            "background": {},
-            "font": {}
-          },
           "image": "",
-          "text": "",
-          "align": "",
+          "text": "edas",
+          "align": "Center | Top",
           "links": []
         }
       ]
