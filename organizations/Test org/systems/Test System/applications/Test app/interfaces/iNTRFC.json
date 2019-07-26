@@ -1,0 +1,177 @@
+{
+  "identity": {
+    "id": "ee86e80b-e95c-4916-9f53-bcf541de02a6",
+    "name": "iNTRFC"
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "revision": 0
+  },
+  "object": {
+    "parent": {
+      "id": "fa535909-b271-4d91-8dff-65fecb6f32fe",
+      "name": "/organizations/Test org/systems/Test System/applications/Test app"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Interface",
+    "properties": [],
+    "history": {
+      "created": "2018-08-08T19:05:18.523",
+      "createdBy": "mailfornik@gmail.com",
+      "updated": "2019-07-26T06:54:14.757",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2019-07-26T06:54:06.1",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/6715/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2019-07-26T06:54:14.603",
+          "completedBy": "orzhan057@gmail.com",
+          "completedByMessage": "/organizations/Test org/systems/Test System/applications/Test app/issues/6715/messages/2"
+        }
+      ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
+    }
+  },
+  "parameters": [
+    {
+      "location": "Path",
+      "field": {
+        "identity": {
+          "id": "e0767d43-29a6-44bd-82d4-e76a3e74835b",
+          "name": "p1",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    },
+    {
+      "location": "Body",
+      "field": {
+        "identity": {
+          "id": "6a756398-8488-4278-a463-cb4999207c09",
+          "name": "p2",
+          "description": ""
+        },
+        "order": 2,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "code": "200",
+      "field": {
+        "identity": {
+          "id": "fefa4971-25ee-4758-87f4-bd4a61001c38",
+          "name": "ok",
+          "description": ""
+        },
+        "order": 1,
+        "usage": "Property",
+        "count": 1,
+        "type": "String",
+        "size": 0,
+        "optional": true,
+        "value": "",
+        "format": "",
+        "access": 255,
+        "privacy": "low"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "identity": {
+        "id": "82318c60-5f6e-4afa-bc95-9ecc423d0ab9",
+        "name": "o1",
+        "description": ""
+      },
+      "deprecated": false,
+      "action": "GET",
+      "parameters": [
+        {
+          "id": "e0767d43-29a6-44bd-82d4-e76a3e74835b",
+          "name": "p1",
+          "description": ""
+        },
+        {
+          "id": "6a756398-8488-4278-a463-cb4999207c09",
+          "name": "p2",
+          "description": ""
+        }
+      ],
+      "responses": [
+        {
+          "id": "fefa4971-25ee-4758-87f4-bd4a61001c38",
+          "name": "ok",
+          "description": ""
+        }
+      ]
+    }
+  ],
+  "layouts": [],
+  "examples": [
+    {
+      "identity": {
+        "id": "5ce56a77-bec2-45d6-87d4-87e8cf0d44cc",
+        "name": "e1"
+      },
+      "format": "JSON",
+      "operation": {
+        "id": "82318c60-5f6e-4afa-bc95-9ecc423d0ab9",
+        "name": "o1"
+      },
+      "parameters": [
+        {
+          "identity": {
+            "name": "p1"
+          },
+          "type": "String",
+          "value": "par1"
+        },
+        {
+          "identity": {
+            "name": "p2"
+          },
+          "type": "String",
+          "value": "par2"
+        }
+      ],
+      "response": {
+        "identity": {
+          "name": "ok"
+        },
+        "type": "String",
+        "value": ""
+      }
+    }
+  ]
+}
