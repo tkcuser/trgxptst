@@ -22,10 +22,17 @@
     "history": {
       "created": "2019-08-15T01:05:33.66",
       "createdBy": "developer.apdax@mail.ru",
-      "updated": "2019-08-15T01:13:12.37",
+      "updated": "2019-08-15T01:13:22.19",
       "updatedBy": "unknown",
-      "mirrored": "2019-08-15T01:13:05.127",
-      "completions": []
+      "mirrored": "2019-08-15T01:13:17.427",
+      "completions": [
+        {
+          "status": "Finalized",
+          "completed": "2019-08-15T01:13:21.24",
+          "completedBy": "developer.apdax@mail.ru",
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/7466/messages/1"
+        }
+      ]
     }
   },
   "external": true,
