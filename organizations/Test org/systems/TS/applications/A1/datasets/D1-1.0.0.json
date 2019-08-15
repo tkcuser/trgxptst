@@ -1,6 +1,6 @@
 {
   "identity": {
-    "id": "c2023641-ac2d-49a7-bbb8-33450062e6bd",
+    "id": "a50fb6ea-d63a-4851-b1f8-2ea6a05729e0",
     "name": "D1",
     "description": "DD"
   },
@@ -11,7 +11,7 @@
   },
   "object": {
     "parent": {
-      "id": "f2e2bd1f-c7fa-45bc-ae80-bcd66b8eda09",
+      "id": "ed39b6a1-7fba-4355-a606-528b5bed67d7",
       "name": "/organizations/Test org/systems/TS/applications/A1"
     },
     "tags": [],
@@ -20,22 +20,16 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2019-08-15T10:35:49.113",
+      "created": "2019-08-15T12:05:31.753",
       "createdBy": "developer.apdax@mail.ru",
-      "updated": "2019-08-15T10:43:48.233",
+      "updated": "2019-08-15T12:13:15.71",
       "updatedBy": "developer.apdax@mail.ru",
       "completions": [
         {
-          "status": "Finalized",
-          "completed": "2019-08-15T10:43:35.87",
-          "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/7482/messages/2"
-        },
-        {
           "status": "Approved",
-          "completed": "2019-08-15T10:43:48.017",
+          "completed": "2019-08-15T12:12:58.497",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/7482/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/7484/messages/2"
         }
       ]
     },
@@ -47,25 +41,7 @@
   },
   "external": true,
   "structure": {
-    "fields": [
-      {
-        "identity": {
-          "id": "a54395d0-2cea-4fe1-a892-fd07f5edc11a",
-          "name": "F1",
-          "description": ""
-        },
-        "order": 1,
-        "usage": "Property",
-        "count": 1,
-        "type": "String",
-        "size": 0,
-        "optional": true,
-        "value": "",
-        "format": "",
-        "access": 255,
-        "privacy": "low"
-      }
-    ],
+    "fields": [],
     "keys": []
   },
   "layouts": [],
