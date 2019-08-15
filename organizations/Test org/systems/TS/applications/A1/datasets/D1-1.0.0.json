@@ -22,17 +22,28 @@
     "history": {
       "created": "2019-08-15T01:05:33.66",
       "createdBy": "developer.apdax@mail.ru",
-      "updated": "2019-08-15T01:13:22.19",
-      "updatedBy": "unknown",
-      "mirrored": "2019-08-15T01:13:17.427",
+      "updated": "2019-08-15T01:13:32.91",
+      "updatedBy": "developer.apdax@mail.ru",
+      "mirrored": "2019-08-15T01:13:27.38",
       "completions": [
         {
           "status": "Finalized",
           "completed": "2019-08-15T01:13:21.24",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/7466/messages/1"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/7466/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2019-08-15T01:13:32.76",
+          "completedBy": "developer.apdax@mail.ru",
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/7466/messages/2"
         }
       ]
+    },
+    "lastApprovedVersion": {
+      "major": 1,
+      "minor": 0,
+      "revision": 0
     }
   },
   "external": true,
