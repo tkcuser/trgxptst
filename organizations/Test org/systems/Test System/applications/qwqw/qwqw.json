@@ -1,0 +1,26 @@
+{
+  "identity": {
+    "id": "ed8bdaf9-d695-4e1b-9309-968c76816913",
+    "name": "qwqw",
+    "description": "sadasdsa"
+  },
+  "object": {
+    "parent": {
+      "id": "68e7bdbf-d8c1-4bfb-b6bc-86b59265412c",
+      "name": "/organizations/Test org/systems/Test System"
+    },
+    "tags": [],
+    "documents": [],
+    "type": "Application",
+    "usage": "Dimension",
+    "access": "External",
+    "properties": [],
+    "history": {
+      "created": "2019-08-19T09:20:00.44",
+      "createdBy": "orzhan057@gmail.com",
+      "updated": "2019-08-19T09:20:00.44",
+      "updatedBy": "orzhan057@gmail.com",
+      "completions": []
+    }
+  }
+}
