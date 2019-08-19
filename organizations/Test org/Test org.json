@@ -2,7 +2,7 @@
   "identity": {
     "id": "57bca937-14f0-416f-9b9d-9a03d9a38254",
     "name": "Test org",
-    "description": "Test org description edit11 sdadasdas"
+    "description": "Test org description edit11"
   },
   "object": {
     "picture": "logo.png",
@@ -39,14 +39,29 @@
         "name": "test tag"
       }
     ],
-    "documents": [],
+    "documents": [
+      {
+        "identity": {
+          "name": "arrow-down.png"
+        },
+        "type": "Picture",
+        "uri": "/organizations/Test org/arrow-down.png"
+      },
+      {
+        "identity": {
+          "name": "test.png"
+        },
+        "type": "Picture",
+        "uri": "/organizations/Test org/test.png"
+      }
+    ],
     "type": "Org",
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2019-08-19T09:18:24.4",
+      "created": "2019-08-19T09:35:43.783",
       "createdBy": "mailfornik@gmail.com",
-      "updated": "2019-08-19T09:18:24.4",
+      "updated": "2019-08-19T09:35:43.783",
       "updatedBy": "unknown",
       "completions": []
     }
@@ -56,7 +71,7 @@
     "user": "tkcuser",
     "password": "7-:SF%#y;F6E",
     "integration": true,
-    "status": ""
+    "status": "cannot push because a reference that you are trying to update on the remote contains commits that are not present locally."
   },
   "encryption": "ads"
 }
