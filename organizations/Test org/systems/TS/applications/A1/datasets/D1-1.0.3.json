@@ -1,6 +1,6 @@
 {
   "identity": {
-    "id": "0f00f01f-ea31-4853-b1ec-a73d213e5eec",
+    "id": "b5216599-3960-4c62-a083-a80b7df6978b",
     "name": "D1",
     "description": "DD"
   },
@@ -11,44 +11,44 @@
   },
   "object": {
     "parent": {
-      "id": "4109a77a-ca5f-473e-bd64-81ababd50f46",
+      "id": "53ddc489-3ef3-4f98-b931-06a9c0f367de",
       "name": "/organizations/Test org/systems/TS/applications/A1"
     },
     "picture": "",
     "tags": [],
     "documents": [],
     "type": "DataSet",
-    "usage": "Resource",
-    "access": "External",
+    "usage": "Event",
+    "access": "Public",
     "properties": [],
     "elements": [],
     "history": {
-      "created": "2019-05-16T13:33:39.177",
-      "createdBy": "developer.apdax2@yandex.ru",
-      "updated": "2019-05-16T13:34:51.483",
-      "updatedBy": "orzhan057@gmail.com",
-      "mirrored": "2019-05-16T13:34:18.657",
+      "created": "2019-08-21T22:41:03.007",
+      "createdBy": "developer.apdax@mail.ru",
+      "updated": "2019-08-21T23:40:43.693",
+      "updatedBy": "developer.apdax@mail.ru",
+      "mirrored": "2019-08-21T22:41:42.817",
       "completions": [
         {
           "status": "Approved",
-          "completed": "2019-05-16T13:34:46.55",
-          "completedBy": "orzhan057@gmail.com",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/3780/messages/2"
+          "completed": "2019-08-21T23:40:28.767",
+          "completedBy": "developer.apdax@mail.ru",
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/7746/messages/2"
         }
       ]
     },
     "lastApprovedVersion": {
       "major": 1,
       "minor": 0,
-      "revision": 4
+      "revision": 3
     }
   },
-  "external": true,
+  "external": false,
   "structure": {
     "fields": [
       {
         "identity": {
-          "id": "8e74fd71-c9f0-4bc7-bb7d-7e322999b19f",
+          "id": "65ca3a75-0973-4fde-81cd-14d666c03c33",
           "name": "F1",
           "description": ""
         },
