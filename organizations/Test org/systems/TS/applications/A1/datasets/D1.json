@@ -7,36 +7,40 @@
   "version": {
     "major": 1,
     "minor": 0,
-    "revision": 0
+    "revision": 1
   },
   "object": {
     "parent": {
       "id": "53ddc489-3ef3-4f98-b931-06a9c0f367de",
       "name": "/organizations/Test org/systems/TS/applications/A1"
     },
+    "picture": "",
     "tags": [],
     "documents": [],
     "type": "DataSet",
-    "usage": "Resource",
+    "usage": "Event",
+    "access": "Public",
     "properties": [],
+    "elements": [],
     "history": {
-      "created": "2019-08-20T02:35:30.207",
+      "created": "2019-08-20T02:43:27.79",
       "createdBy": "developer.apdax@mail.ru",
-      "updated": "2019-08-20T02:43:27.613",
+      "updated": "2019-08-21T21:40:54.797",
       "updatedBy": "developer.apdax@mail.ru",
+      "mirrored": "2019-08-20T02:44:15.537",
       "completions": [
         {
           "status": "Approved",
-          "completed": "2019-08-20T02:43:13.31",
+          "completed": "2019-08-21T21:40:40.363",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/7696/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/7742/messages/2"
         }
       ]
     },
     "lastApprovedVersion": {
       "major": 1,
       "minor": 0,
-      "revision": 0
+      "revision": 1
     }
   },
   "external": true,
