@@ -7,7 +7,7 @@
   "version": {
     "major": 1,
     "minor": 0,
-    "revision": 5
+    "revision": 6
   },
   "object": {
     "parent": {
@@ -23,33 +23,27 @@
     "properties": [],
     "elements": [],
     "history": {
-      "created": "2019-08-22T00:40:53.637",
+      "created": "2019-08-22T02:10:37.047",
       "createdBy": "developer.apdax@mail.ru",
-      "updated": "2019-08-22T02:10:20.44",
+      "updated": "2019-08-22T02:41:00.81",
       "updatedBy": "developer.apdax@mail.ru",
-      "mirrored": "2019-08-22T00:41:26.887",
+      "mirrored": "2019-08-22T02:10:22.3",
       "completions": [
         {
-          "status": "Finalized",
-          "completed": "2019-08-22T02:10:07.823",
-          "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/7750/messages/2"
-        },
-        {
           "status": "Approved",
-          "completed": "2019-08-22T02:10:20.207",
+          "completed": "2019-08-22T02:40:46.643",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/7750/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/7752/messages/2"
         }
       ]
     },
     "lastApprovedVersion": {
       "major": 1,
       "minor": 0,
-      "revision": 5
+      "revision": 6
     }
   },
-  "external": false,
+  "external": true,
   "structure": {
     "fields": [
       {
