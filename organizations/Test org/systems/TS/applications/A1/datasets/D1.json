@@ -1,52 +1,42 @@
 {
   "identity": {
-    "id": "b5216599-3960-4c62-a083-a80b7df6978b",
+    "id": "48078e04-b99f-464f-9f2c-94484a636ee7",
     "name": "D1",
     "description": "DD"
   },
   "version": {
     "major": 1,
     "minor": 0,
-    "revision": 19
+    "revision": 0
   },
   "object": {
     "parent": {
-      "id": "53ddc489-3ef3-4f98-b931-06a9c0f367de",
+      "id": "80c9bba4-02e5-45b0-a6be-aa0f9b0b97f2",
       "name": "/organizations/Test org/systems/TS/applications/A1"
     },
-    "picture": "",
     "tags": [],
     "documents": [],
     "type": "DataSet",
-    "usage": "Event",
-    "access": "Public",
+    "usage": "Resource",
     "properties": [],
-    "elements": [],
     "history": {
-      "created": "2019-08-22T15:41:35.513",
+      "created": "2019-09-20T14:35:48.78",
       "createdBy": "developer.apdax@mail.ru",
-      "updated": "2019-08-22T16:40:59.26",
+      "updated": "2019-09-20T14:43:59.193",
       "updatedBy": "developer.apdax@mail.ru",
-      "mirrored": "2019-08-22T15:41:50.663",
       "completions": [
         {
-          "status": "Finalized",
-          "completed": "2019-08-22T16:40:47.787",
-          "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/7779/messages/2"
-        },
-        {
           "status": "Approved",
-          "completed": "2019-08-22T16:40:59.07",
+          "completed": "2019-09-20T14:43:44.36",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/7779/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/8423/messages/2"
         }
       ]
     },
     "lastApprovedVersion": {
       "major": 1,
       "minor": 0,
-      "revision": 19
+      "revision": 0
     }
   },
   "external": true,
@@ -54,7 +44,7 @@
     "fields": [
       {
         "identity": {
-          "id": "65ca3a75-0973-4fde-81cd-14d666c03c33",
+          "id": "5f4b2275-c0ce-4e28-81cf-1070d17d4656",
           "name": "F1",
           "description": ""
         },
