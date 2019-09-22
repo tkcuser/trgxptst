@@ -39,22 +39,7 @@
         "name": "test tag"
       }
     ],
-    "documents": [
-      {
-        "identity": {
-          "name": "arrow-down.png"
-        },
-        "type": "Picture",
-        "uri": "/organizations/Test org/arrow-down.png"
-      },
-      {
-        "identity": {
-          "name": "test.png"
-        },
-        "type": "Picture",
-        "uri": "/organizations/Test org/test.png"
-      }
-    ],
+    "documents": [],
     "type": "Org",
     "usage": "Resource",
     "properties": [],
