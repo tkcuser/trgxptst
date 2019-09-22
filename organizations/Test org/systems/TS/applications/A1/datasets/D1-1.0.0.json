@@ -1,6 +1,6 @@
 {
   "identity": {
-    "id": "3da43eda-c015-4c82-b813-44185b9bc60c",
+    "id": "128dc7e7-7a25-4c03-9191-e0dad73e398c",
     "name": "D1",
     "description": "DD"
   },
@@ -11,7 +11,7 @@
   },
   "object": {
     "parent": {
-      "id": "e971e8d8-76e9-4fc8-8e76-db98fca0c2d9",
+      "id": "8a6cb265-07ac-4c9e-b72e-d1325349ddeb",
       "name": "/organizations/Test org/systems/TS/applications/A1"
     },
     "tags": [],
@@ -20,16 +20,22 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2019-09-22T08:35:48.873",
+      "created": "2019-09-22T11:35:47.203",
       "createdBy": "developer.apdax@mail.ru",
-      "updated": "2019-09-22T08:43:03.957",
+      "updated": "2019-09-22T11:43:21.463",
       "updatedBy": "developer.apdax@mail.ru",
       "completions": [
         {
-          "status": "Approved",
-          "completed": "2019-09-22T08:42:48.727",
+          "status": "Finalized",
+          "completed": "2019-09-22T11:43:09.507",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/8505/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/8511/messages/2"
+        },
+        {
+          "status": "Approved",
+          "completed": "2019-09-22T11:43:21.103",
+          "completedBy": "developer.apdax@mail.ru",
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/8511/messages/2"
         }
       ]
     },
@@ -44,7 +50,7 @@
     "fields": [
       {
         "identity": {
-          "id": "3e2397ad-b067-49d6-ae06-97a294f6e43d",
+          "id": "381e456a-c2e7-4171-a604-3f62816a0ef1",
           "name": "F1",
           "description": ""
         },
