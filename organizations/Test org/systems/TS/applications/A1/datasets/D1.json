@@ -1,6 +1,6 @@
 {
   "identity": {
-    "id": "a39b892b-9fe1-4e85-8049-ec260316acc8",
+    "id": "471a8a59-d92f-4ad0-b2d5-6f0e39a8282e",
     "name": "D1",
     "description": "DD"
   },
@@ -11,7 +11,7 @@
   },
   "object": {
     "parent": {
-      "id": "b7e028f5-07e1-4bc2-840c-77a889dab712",
+      "id": "e8922557-ddee-476f-ba54-c0b02effac30",
       "name": "/organizations/Test org/systems/TS/applications/A1"
     },
     "tags": [],
@@ -20,16 +20,16 @@
     "usage": "Resource",
     "properties": [],
     "history": {
-      "created": "2019-09-25T19:35:35.307",
+      "created": "2019-09-25T20:35:46.857",
       "createdBy": "developer.apdax@mail.ru",
-      "updated": "2019-09-25T19:43:20.207",
+      "updated": "2019-09-25T20:43:00.493",
       "updatedBy": "developer.apdax@mail.ru",
       "completions": [
         {
           "status": "Approved",
-          "completed": "2019-09-25T19:43:05.323",
+          "completed": "2019-09-25T20:42:46.583",
           "completedBy": "developer.apdax@mail.ru",
-          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/8660/messages/2"
+          "completedByMessage": "/organizations/Test org/systems/TS/applications/A1/issues/8662/messages/2"
         }
       ]
     },
@@ -41,25 +41,7 @@
   },
   "external": true,
   "structure": {
-    "fields": [
-      {
-        "identity": {
-          "id": "a3ebf75a-7786-4f26-b527-943fdfa7ab29",
-          "name": "F1",
-          "description": ""
-        },
-        "order": 1,
-        "usage": "Property",
-        "count": 1,
-        "type": "String",
-        "size": 0,
-        "optional": true,
-        "value": "",
-        "format": "",
-        "access": 255,
-        "privacy": "low"
-      }
-    ],
+    "fields": [],
     "keys": []
   },
   "layouts": [],
